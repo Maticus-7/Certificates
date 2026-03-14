@@ -1,50 +1,404 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<title>Matihus Molina</title>
-<style>
-body{
-font-family: Arial;
-max-width: 800px;
-margin: auto;
-line-height: 1.6;
-}
-h1{
-color:#333;
-}
-a{
-text-decoration:none;
-color:#1a73e8;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Certificados - Blog de Logros</title>
+    
+    <!-- Meta tags para SEO -->
+    <meta name="description" content="Blog personal donde muestro mis certificados y logros profesionales">
+    <meta name="author" content="Tu Nombre">
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tu CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#inicio">📜 MisCertificados</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-<h1>Matihus Molina</h1>
+    <!-- Sección de Inicio/Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Mi Trayectoria de Logros</h1>
+            <p class="hero-subtitle">Bienvenido a mi espacio personal donde comparto mis certificaciones<br>y el camino de aprendizaje continuo.</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="cert-count">0</span>
+                    <span class="stat-label">Certificados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="hours-count">0</span>
+                    <span class="stat-label">Horas de estudio</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="projects-count">0</span>
+                    <span class="stat-label">Proyectos</span>
+                </div>
+            </div>
+            <a href="#certificados" class="btn-primary">Ver Certificados <i class="fas fa-arrow-down"></i></a>
+        </div>
+    </section>
 
-<p>
-Mathematics student at Universidad Nacional Mayor de San Marcos.
-Interested in ergodic theory, formalized mathematics and mathematical modeling.
-</p>
+    <!-- Sección de Certificados -->
+    <section id="certificados" class="certificados">
+        <div class="container">
+            <h2 class="section-title">Mis Certificados <span class="title-decoration"></span></h2>
+            
+            <!-- Filtros de categorías -->
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="tecnologia">Tecnología</button>
+                <button class="filter-btn" data-filter="idiomas">Idiomas</button>
+                <button class="filter-btn" data-filter="profesional">Profesional</button>
+                <button class="filter-btn" data-filter="academico">Académico</button>
+            </div>
 
-<h2>Research Interests</h2>
+            <!-- Grid de certificados -->
+            <div class="cert-grid" id="cert-grid">
+                <!-- Certificado 1 -->
+                <div class="cert-card" data-category="tecnologia">
+                    <div class="cert-image">
+                        <img src="img/certificado1.jpg" alt="Certificado de Programación">
+                        <div class="cert-overlay">
+                            <span class="cert-date">2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Desarrollo Web Full Stack</h3>
+                        <p class="cert-issuer">Platzi</p>
+                        <p class="cert-description">Certificación en desarrollo web con HTML, CSS, JavaScript y React</p>
+                        <div class="cert-footer">
+                            <span class="credential-id">ID: CR-2024-001</span>
+                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
 
-<ul>
-<li>Ergodic Theory</li>
-<li>Formalized Mathematics (Lean)</li>
-<li>Mathematical Modeling</li>
-</ul>
+                <!-- Certificado 2 -->
+                <div class="cert-card" data-category="idiomas">
+                    <div class="cert-image">
+                        <img src="img/certificado2.jpg" alt="Certificado de Inglés">
+                        <div class="cert-overlay">
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Inglés Avanzado C1</h3>
+                        <p class="cert-issuer">Cambridge English</p>
+                        <p class="cert-description">Certificación de proficiencia en inglés nivel avanzado</p>
+                        <div class="cert-footer">
+                            <span class="credential-id">ID: CAE-2023-456</span>
+                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
 
-<h2>Certificates</h2>
+                <!-- Certificado 3 -->
+                <div class="cert-card" data-category="profesional">
+                    <div class="cert-image">
+                        <img src="img/certificado3.jpg" alt="Certificado Profesional">
+                        <div class="cert-overlay">
+                            <span class="cert-date">2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Project Management Professional</h3>
+                        <p class="cert-issuer">PMI Institute</p>
+                        <p class="cert-description">Certificación en gestión de proyectos y metodologías ágiles</p>
+                        <div class="cert-footer">
+                            <span class="credential-id">ID: PMP-2024-789</span>
+                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
 
-<ul>
-<li><a href="certificates/lean-course-imca.pdf">Lean Course – IMCA</a></li>
-</ul>
+                <!-- Certificado 4 -->
+                <div class="cert-card" data-category="tecnologia">
+                    <div class="cert-image">
+                        <img src="img/certificado4.jpg" alt="Certificado de Python">
+                        <div class="cert-overlay">
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Python para Data Science</h3>
+                        <p class="cert-issuer">IBM</p>
+                        <p class="cert-description">Especialización en Python aplicado a ciencia de datos</p>
+                        <div class="cert-footer">
+                            <span class="credential-id">ID: PY-2023-234</span>
+                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
 
-<h2>CV</h2>
+                <!-- Certificado 5 -->
+                <div class="cert-card" data-category="academico">
+                    <div class="cert-image">
+                        <img src="img/certificado5.jpg" alt="Certificado Académico">
+                        <div class="cert-overlay">
+                            <span class="cert-date">2022</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Maestría en Innovación Digital</h3>
+                        <p class="cert-issuer">Universidad Tecnológica</p>
+                        <p class="cert-description">Postgrado en innovación y transformación digital</p>
+                        <div class="cert-footer">
+                            <span class="credential-id">ID: MAST-2022-567</span>
+                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
 
-<a href="cv/CV.pdf">Download CV</a>
+                <!-- Certificado 6 -->
+                <div class="cert-card" data-category="tecnologia">
+                    <div class="cert-image">
+                        <img src="img/certificado6.jpg" alt="Certificado Cloud">
+                        <div class="cert-overlay">
+                            <span class="cert-date">2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>AWS Certified Solutions Architect</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                        <p class="cert-description">Certificación en arquitectura de soluciones en la nube</p>
+                        <div class="cert-footer">
+                            <span class="credential-id">ID: AWS-2024-890</span>
+                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Botón cargar más -->
+            <div class="load-more">
+                <button id="loadMoreBtn" class="btn-secondary">Cargar más certificados <i class="fas fa-sync-alt"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="habilidades" class="habilidades">
+        <div class="container">
+            <h2 class="section-title">Habilidades Adquiridas <span class="title-decoration"></span></h2>
+            
+            <div class="skills-container">
+                <!-- Habilidad 1 -->
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Desarrollo Web</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <!-- Habilidad 2 -->
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <!-- Habilidad 3 -->
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Cloud Computing</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                </div>
+
+                <!-- Habilidad 4 -->
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Inglés</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <!-- Habilidad 5 -->
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Project Management</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <!-- Habilidad 6 -->
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Data Science</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/profile.jpg" alt="Tu foto de perfil">
+                </div>
+                <div class="about-text">
+                    <h2>Sobre Mí</h2>
+                    <p class="about-subtitle">Apasionado por el aprendizaje continuo</p>
+                    <p class="about-description">
+                        Hola, soy [Tu Nombre]. Me apasiona adquirir nuevos conocimientos y 
+                        certificar mis habilidades. Este blog es mi espacio personal donde 
+                        comparto cada logro en mi camino profesional. Creo firmemente que 
+                        la educación continua es la clave para el crecimiento personal y 
+                        profesional.
+                    </p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-box">
+                            <i class="fas fa-certificate"></i>
+                            <span class="stat-value">15+</span>
+                            <span class="stat-label">Certificaciones</span>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-clock"></i>
+                            <span class="stat-value">500+</span>
+                            <span class="stat-label">Horas de estudio</span>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-globe"></i>
+                            <span class="stat-value">3</span>
+                            <span class="stat-label">Idiomas</span>
+                        </div>
+                    </div>
+
+                    <div class="about-social">
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2 class="section-title">¿Hablamos? <span class="title-decoration"></span></h2>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>tu.email@ejemplo.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Teléfono</h3>
+                        <p>+34 123 456 789</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Ubicación</h3>
+                        <p>Ciudad, País</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Asunto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar mensaje <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>📜 MisCertificados</h3>
+                    <p>Blog personal de logros y certificaciones</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#certificados">Certificados</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Sígueme</h4>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MisCertificados. Todos los derechos reservados.</p>
+                <p>Hecho con <i class="fas fa-heart"></i> para compartir conocimiento</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
 </body>
 </html>
