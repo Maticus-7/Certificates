@@ -9,13 +9,13 @@
     <meta name="description" content="Blog personal donde muestro mis certificados y logros profesionales">
     <meta name="author" content="Matiu">
     
-    <!-- Font Awesome para iconos -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Tu CSS personalizado -->
+    <!-- Tu CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -28,6 +28,7 @@
             <ul class="nav-menu">
                 <li><a href="#inicio" class="active">Inicio</a></li>
                 <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#distinciones">Distinciones</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -40,35 +41,20 @@
         </div>
     </nav>
 
-    <!-- Sección de Inicio/Hero -->
+    <!-- Hero -->
     <section id="inicio" class="hero">
         <div class="hero-content">
             <h1>Mi Trayectoria de Logros</h1>
             <p class="hero-subtitle">Bienvenido a mi espacio personal donde comparto mis certificaciones<br>y el camino de aprendizaje continuo.</p>
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <span class="stat-number" id="cert-count">6</span>
-                    <span class="stat-label">Certificados</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number" id="hours-count">100</span>
-                    <span class="stat-label">Horas de estudio</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number" id="projects-count">1</span>
-                    <span class="stat-label">Proyectos</span>
-                </div>
-            </div>
             <a href="#certificados" class="btn-primary">Ver Certificados <i class="fas fa-arrow-down"></i></a>
         </div>
     </section>
 
-    <!-- Sección de Certificados -->
+    <!-- Certificados -->
     <section id="certificados" class="certificados">
         <div class="container">
             <h2 class="section-title">Mis Certificados <span class="title-decoration"></span></h2>
             
-            <!-- Filtros de categorías -->
             <div class="filter-container">
                 <button class="filter-btn active" data-filter="all">Todos</button>
                 <button class="filter-btn" data-filter="tecnologia">Tecnología</button>
@@ -77,15 +63,12 @@
                 <button class="filter-btn" data-filter="academico">Académico</button>
             </div>
 
-            <!-- Grid de certificados -->
             <div class="cert-grid" id="cert-grid">
                 <!-- Certificado 1 -->
                 <div class="cert-card" data-category="tecnologia">
                     <div class="cert-image">
-                        <img src="img/PIT2025-UNI-PROGRAMACIÓN EN PYTHON INTERMEDIO_page-0001.jpg" alt="Certificado de Programación">
-                        <div class="cert-overlay">
-                            <span class="cert-date">2025</span>
-                        </div>
+                        <img src="img/PIT2025-UNI-PROGRAMACIÓN EN PYTHON INTERMEDIO_page-0001.jpg" alt="Certificado Python">
+                        <div class="cert-overlay"><span class="cert-date">2025</span></div>
                     </div>
                     <div class="cert-info">
                         <h3>PROGRAMACIÓN EN PYTHON INTERMEDIO</h3>
@@ -93,18 +76,15 @@
                         <p class="cert-description">Certificación en python</p>
                         <div class="cert-footer">
                             <span class="credential-id">ID: C1-2025-001</span>
-                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="btn-verify">Verificar <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
-
                 <!-- Certificado 2 -->
                 <div class="cert-card" data-category="idiomas">
                     <div class="cert-image">
-                        <img src="img/LIDEMPERÚ.jpeg" alt="Certificado de Inglés">
-                        <div class="cert-overlay">
-                            <span class="cert-date">2020</span>
-                        </div>
+                        <img src="img/LIDEMPERÚ.jpeg" alt="Inglés">
+                        <div class="cert-overlay"><span class="cert-date">2020</span></div>
                     </div>
                     <div class="cert-info">
                         <h3>Inglés Avanzado C1</h3>
@@ -112,18 +92,15 @@
                         <p class="cert-description">Certificación de proficiencia en inglés nivel avanzado</p>
                         <div class="cert-footer">
                             <span class="credential-id">ID: C2-2020-001</span>
-                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="btn-verify">Verificar <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
-
                 <!-- Certificado 3 -->
                 <div class="cert-card" data-category="academico">
                     <div class="cert-image">
-                        <img src="img/E'(UBB)=2025.jpg" alt="Certificado Académico">
-                        <div class="cert-overlay">
-                            <span class="cert-date">2025</span>
-                        </div>
+                        <img src="img/E'(UBB)=2025.jpg" alt="Congreso UBB">
+                        <div class="cert-overlay"><span class="cert-date">2025</span></div>
                     </div>
                     <div class="cert-info">
                         <h3>E'(UBB)=2025</h3>
@@ -131,18 +108,15 @@
                         <p class="cert-description">Participación Presencial</p>
                         <div class="cert-footer">
                             <span class="credential-id">ID: C4-2025-004</span>
-                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="btn-verify">Verificar <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
-
                 <!-- Certificado 4 -->
                 <div class="cert-card" data-category="academico">
                     <div class="cert-image">
-                        <img src="img/Voluntario2025.png" alt="Certificado Académico">
-                        <div class="cert-overlay">
-                            <span class="cert-date">2025</span>
-                        </div>
+                        <img src="img/Voluntario2025.png" alt="Voluntariado IEEE">
+                        <div class="cert-overlay"><span class="cert-date">2025</span></div>
                     </div>
                     <div class="cert-info">
                         <h3>Voluntario IEEE CIS UNMSM 2025</h3>
@@ -150,56 +124,47 @@
                         <p class="cert-description">Voluntario</p>
                         <div class="cert-footer">
                             <span class="credential-id">ID: C4-2025-003</span>
-                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="btn-verify">Verificar <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
-
                 <!-- Certificado 5 -->
                 <div class="cert-card" data-category="academico">
                     <div class="cert-image">
-                        <img src="img/IIICONALGYSISD.jpg" alt="Certificado Académico">
-                        <div class="cert-overlay">
-                            <span class="cert-date">2025</span>
-                        </div>
+                        <img src="img/IIICONALGYSISD.jpg" alt="Congreso Álgebra">
+                        <div class="cert-overlay"><span class="cert-date">2025</span></div>
                     </div>
                     <div class="cert-info">
-                        <h3>III Congreso Internacional de Álgebra y Sistemas Dinámicos en Memoria del Dr. Arkadiusz Ploski</h3>
+                        <h3>III Congreso Internacional de Álgebra y Sistemas Dinámicos</h3>
                         <p class="cert-issuer">UNMSM</p>
                         <p class="cert-description">Asistente</p>
                         <div class="cert-footer">
                             <span class="credential-id">ID: C4-2025-001</span>
-                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="btn-verify">Verificar <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
-
                 <!-- Certificado 6 -->
                 <div class="cert-card" data-category="academico">
                     <div class="cert-image">
-                        <img src="img/SMP2025.jpg" alt="Certificado Académico">
-                        <div class="cert-overlay">
-                            <span class="cert-date">2025</span>
-                        </div>
+                        <img src="img/SMP2025.jpg" alt="Coloquio SMP">
+                        <div class="cert-overlay"><span class="cert-date">2025</span></div>
                     </div>
                     <div class="cert-info">
                         <h3>XXXVIII COLOQUIO DE LA SOCIEDAD MATEMÁTICA PERUANA 2025</h3>
-                        <p class="cert-issuer">SOCIEDAD MATEMÁTICA PERUANA</p>
+                        <p class="cert-issuer">SMP</p>
                         <p class="cert-description">Asistente</p>
                         <div class="cert-footer">
                             <span class="credential-id">ID: C4-2025-002</span>
-                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="btn-verify">Verificar <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
-
                 <!-- Certificado 7 -->
                 <div class="cert-card" data-category="academico">
                     <div class="cert-image">
-                        <img src="img/VRIP-2025-0.jpg" alt="Certificado Académico">
-                        <div class="cert-overlay">
-                            <span class="cert-date">2025</span>
-                        </div>
+                        <img src="img/VRIP-2025-0.jpg" alt="Sistemas dinámicos">
+                        <div class="cert-overlay"><span class="cert-date">2025</span></div>
                     </div>
                     <div class="cert-info">
                         <h3>Un primer encuentro con los sistemas dinámicos caóticos</h3>
@@ -207,18 +172,15 @@
                         <p class="cert-description">Participación activa</p>
                         <div class="cert-footer">
                             <span class="credential-id">ID: C4-2025-005</span>
-                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="btn-verify">Verificar <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
-
                 <!-- Certificado 8 -->
                 <div class="cert-card" data-category="academico">
                     <div class="cert-image">
-                        <img src="img/DIPLOMA1.jpeg" alt="Certificado Académico">
-                        <div class="cert-overlay">
-                            <span class="cert-date">2025</span>
-                        </div>
+                        <img src="img/DIPLOMA1.jpeg" alt="Excelencia Académica">
+                        <div class="cert-overlay"><span class="cert-date">2025</span></div>
                     </div>
                     <div class="cert-info">
                         <h3>EXCELENCIA ACADÉMICA 2025</h3>
@@ -226,100 +188,66 @@
                         <p class="cert-description">Reconocimiento a mi trayectoria académica.</p>
                         <div class="cert-footer">
                             <span class="credential-id">ID: C4-2025-006</span>
-                            <a href="#" class="btn-verify" target="_blank">Verificar <i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="btn-verify">Verificar <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- Botón cargar más -->
-            <div class="load-more">
-                <button id="loadMoreBtn" class="btn-secondary">Cargar más certificados <i class="fas fa-sync-alt"></i></button>
+    <!-- Distinciones (nueva) -->
+    <section id="distinciones" class="distinciones">
+        <div class="container">
+            <h2 class="section-title">Distinciones y Reconocimientos <span class="title-decoration"></span></h2>
+            <div class="dist-grid">
+                <div class="dist-card">
+                    <div class="dist-image">
+                        <img src="img/DIPLOMA1.jpeg" alt="Excelencia Académica 2025">
+                        <div class="dist-overlay"><span class="dist-date">2025</span></div>
+                    </div>
+                    <div class="dist-info">
+                        <h3>Excelencia Académica 2025</h3>
+                        <p class="dist-issuer">UNMSM - Facultad de Ciencias Matemáticas</p>
+                        <p class="dist-description">Reconocimiento por mi trayectoria académica y rendimiento destacado durante el año 2025. Un honor recibir este premio de parte de mi facultad.</p>
+                    </div>
+                </div>
+                <!-- Puedes añadir más aquí -->
             </div>
         </div>
     </section>
 
-    <!-- Sección de Habilidades -->
+    <!-- Habilidades -->
     <section id="habilidades" class="habilidades">
         <div class="container">
             <h2 class="section-title">Habilidades Adquiridas <span class="title-decoration"></span></h2>
-            
             <div class="skills-container">
-                <!-- Habilidad 1 -->
                 <div class="skill-item">
-                    <div class="skill-header">
-                        <span class="skill-name">Desarrollo Web</span>
-                        <span class="skill-percentage">90%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 90%"></div>
-                    </div>
+                    <div class="skill-header"><span class="skill-name">Desarrollo Web</span><span class="skill-percentage">90%</span></div>
+                    <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
                 </div>
-
-                <!-- Habilidad 2 -->
                 <div class="skill-item">
-                    <div class="skill-header">
-                        <span class="skill-name">Python</span>
-                        <span class="skill-percentage">85%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 85%"></div>
-                    </div>
+                    <div class="skill-header"><span class="skill-name">Python</span><span class="skill-percentage">85%</span></div>
+                    <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
                 </div>
-
-                <!-- Habilidad 3 -->
                 <div class="skill-item">
-                    <div class="skill-header">
-                        <span class="skill-name">Cloud Computing</span>
-                        <span class="skill-percentage">75%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 75%"></div>
-                    </div>
+                    <div class="skill-header"><span class="skill-name">Inglés</span><span class="skill-percentage">95%</span></div>
+                    <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
                 </div>
-
-                <!-- Habilidad 4 -->
                 <div class="skill-item">
-                    <div class="skill-header">
-                        <span class="skill-name">Inglés</span>
-                        <span class="skill-percentage">95%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 95%"></div>
-                    </div>
-                </div>
-
-                <!-- Habilidad 5 -->
-                <div class="skill-item">
-                    <div class="skill-header">
-                        <span class="skill-name">Project Management</span>
-                        <span class="skill-percentage">80%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 80%"></div>
-                    </div>
-                </div>
-
-                <!-- Habilidad 6 -->
-                <div class="skill-item">
-                    <div class="skill-header">
-                        <span class="skill-name">Data Science</span>
-                        <span class="skill-percentage">70%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 70%"></div>
-                    </div>
+                    <div class="skill-header"><span class="skill-name">Data Science</span><span class="skill-percentage">70%</span></div>
+                    <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Sección Sobre Mí -->
+    <!-- Sobre Mí -->
     <section id="sobre-mi" class="sobre-mi">
         <div class="container">
             <div class="about-content">
                 <div class="about-image">
-                    <img src="img/Matiu.face.png" alt="Tu foto de perfil">
+                    <img src="img/Matiu.face.png" alt="Matiu">
                 </div>
                 <div class="about-text">
                     <h2>Sobre Mí</h2>
@@ -333,16 +261,21 @@
                         profesional.
                     </p>
                     
+                    <!-- Botón de descargar CV -->
+                    <div class="cv-download">
+                        <a href="CV/Matihus_Molina_CV_EN.pdf" class="btn-primary" download>Descargar CV <i class="fas fa-download"></i></a>
+                    </div>
+
                     <div class="about-stats">
                         <div class="stat-box">
                             <i class="fas fa-certificate"></i>
-                            <span class="stat-value">7+</span>
+                            <span class="stat-value">8</span>
                             <span class="stat-label">Certificaciones</span>
                         </div>
                         <div class="stat-box">
                             <i class="fas fa-clock"></i>
-                            <span class="stat-value">500+</span>
-                            <span class="stat-label">Horas de estudio</span>
+                            <span class="stat-value">21</span>
+                            <span class="stat-label">Años</span>
                         </div>
                         <div class="stat-box">
                             <i class="fas fa-globe"></i>
@@ -361,45 +294,26 @@
         </div>
     </section>
 
-    <!-- Sección de Contacto -->
+    <!-- Contacto horizontal -->
     <section id="contacto" class="contacto">
         <div class="container">
             <h2 class="section-title">¿Hablamos? <span class="title-decoration"></span></h2>
-            
-            <div class="contact-container">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <h3>Email</h3>
-                        <p>matihus.molina@unmsm.edu.pe</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <h3>Teléfono</h3>
-                        <p>+51 903003327</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h3>Ubicación</h3>
-                        <p>Lima, Perú</p>
-                    </div>
+            <div class="contact-info-horizontal">
+                <div class="contact-item-h">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:matihus.molina@unmsm.edu.pe">matihus.molina@unmsm.edu.pe</a></p>
                 </div>
-
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Tu email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" name="subject" placeholder="Asunto" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" rows="5" placeholder="Tu mensaje" required></textarea>
-                    </div>
-                    <button type="submit" class="btn-primary">Enviar mensaje <i class="fas fa-paper-plane"></i></button>
-                </form>
+                <div class="contact-item-h">
+                    <i class="fas fa-phone"></i>
+                    <h3>Teléfono</h3>
+                    <p><a href="tel:+51903300327">+51 903003327</a></p>
+                </div>
+                <div class="contact-item-h">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Ubicación</h3>
+                    <p>Lima, Perú</p>
+                </div>
             </div>
         </div>
     </section>
@@ -417,6 +331,7 @@
                     <ul>
                         <li><a href="#inicio">Inicio</a></li>
                         <li><a href="#certificados">Certificados</a></li>
+                        <li><a href="#distinciones">Distinciones</a></li>
                         <li><a href="#habilidades">Habilidades</a></li>
                         <li><a href="#sobre-mi">Sobre Mí</a></li>
                     </ul>
@@ -424,9 +339,9 @@
                 <div class="footer-social">
                     <h4>Sígueme</h4>
                     <div class="social-icons">
-                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/maticus/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Maticus-7" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/@MathMind-d7o" target="_blank"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -440,11 +355,11 @@
     <!-- Scripts -->
     <script src="js/main.js"></script>
 
-    <!-- Modal para ver certificados en grande -->
+    <!-- Modal para certificados -->
     <div id="certModal" class="modal">
-    <span class="modal-close">&times;</span>
-    <img class="modal-content" id="modalImage">
-    <div id="modalCaption"></div>
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="modalCaption"></div>
     </div>
 </body>
 </html>

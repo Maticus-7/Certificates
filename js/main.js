@@ -98,18 +98,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Cargar más certificados (simulado)
-    const loadMoreBtn = document.getElementById('loadMoreBtn');
-    if (loadMoreBtn) {
-        loadMoreBtn.addEventListener('click', function() {
-            this.innerHTML = 'Cargando... <i class="fas fa-spinner fa-spin"></i>';
-            
-            setTimeout(() => {
-                this.innerHTML = 'Cargar más certificados <i class="fas fa-sync-alt"></i>';
-                alert('Funcionalidad de carga adicional - Aquí cargarías más certificados desde tu base de datos');
-            }, 1500);
-        });
-    }
 
     // Validación y envío del formulario de contacto
     const contactForm = document.getElementById('contactForm');

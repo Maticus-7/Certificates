@@ -4,7 +4,7 @@
     --secondary-color: #1e40af;
     --accent-color: #f59e0b;
     --text-color: #1f2937;
-    --text-light: #6b7280;
+    --text-light: #000000;
     --bg-color: #ffffff;
     --bg-light: #f3f4f6;
     --border-color: #e5e7eb;
@@ -875,4 +875,147 @@ img {
 /* Para que las imágenes de certificados sean clickeables */
 .cert-image {
     cursor: pointer;
+}
+
+/* Sección Distinciones */
+.distinciones {
+    padding: 100px 0;
+    background: #faf9f8;
+}
+
+.dist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.dist-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+    border: 1px solid #e5e7eb;
+}
+
+.dist-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.dist-image {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.dist-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.dist-card:hover .dist-image img {
+    transform: scale(1.05);
+}
+
+.dist-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+.dist-date {
+    color: white;
+    font-weight: 600;
+    background: #d4af37;
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+}
+
+.dist-info {
+    padding: 1.5rem;
+}
+
+.dist-info h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.dist-issuer {
+    color: #b8860b;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.dist-description {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Contacto horizontal */
+.contact-info-horizontal {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.contact-item-h {
+    text-align: center;
+    padding: 1.5rem;
+    background: var(--bg-light);
+    border-radius: 10px;
+    min-width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.contact-item-h:hover {
+    transform: translateY(-5px);
+}
+
+.contact-item-h i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.contact-item-h h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.contact-item-h p {
+    color: var(--text-light);
+    word-break: break-word;
+}
+
+.contact-item-h a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item-h a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+/* Botón descargar CV */
+.cv-download {
+    margin: 2rem 0;
+    text-align: center;
 }
