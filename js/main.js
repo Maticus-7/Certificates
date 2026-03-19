@@ -265,3 +265,68 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+
+// Visor de imágenes para certificados
+function initImageViewer() {
+    // Crear modal si no existe
+    if (!document.getElementById('certModal')) {
+        const modalHTML = `
+            <div id="certModal" class="modal">
+                <span class="modal-close">&times;</span>
+                <img class="modal-content" id="modalImage">
+                <div id="modalCaption"></div>
+            </div>
+        `;
+        document.body.insertAdjacentHTML('beforeend', modalHTML);
+    }
+
+    const modal = document.getElementById('certModal');
+    const modalImg = document.getElementById('modalImage');
+    const captionText = document.getElementById('modalCaption');
+    const closeBtn = document.querySelector('.modal-close');
+
+    // Hacer que todas las imágenes de certificados abran el modal
+    document.querySelectorAll('.cert-image').forEach((certImage, index) => {
+        certImage.addEventListener('click', function() {
+            modal.style.display = 'block';
+            
+            // Buscar la imagen dentro de este certificado
+            const img = this.querySelector('img');
+            if (img) {
+                modalImg.src = img.src;
+                
+                // Buscar el título del certificado
+                const card = this.closest('.cert-card');
+                const title = card.querySelector('h3')?.innerText || 'Certificado';
+                const issuer = card.querySelector('.cert-issuer')?.innerText || '';
+                captionText.innerHTML = `${title} - ${issuer}`;
+            }
+        });
+    });
+
+    // Cerrar modal al hacer clic en la X
+    if (closeBtn) {
+        closeBtn.addEventListener('click', function() {
+            modal.style.display = 'none';
+        });
+    }
+
+    // Cerrar modal al hacer clic fuera de la imagen
+    modal.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+
+    // Cerrar con tecla ESC
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && modal.style.display === 'block') {
+            modal.style.display = 'none';
+        }
+    });
+}
+
+// Inicializar cuando el DOM esté listo
+document.addEventListener('DOMContentLoaded', function() {
+    initImageViewer();
+});

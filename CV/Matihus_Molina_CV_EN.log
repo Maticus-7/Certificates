@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.12)  13 MAR 2026 23:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.12)  19 MAR 2026 01:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -938,15 +938,22 @@ ome5/fa5free0.enc}] [2] (Matihus_Molina_CV_EN.aux)
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `Matihus_Molina_CV_EN.out' has not changed.
-(rerunfilecheck)             Checksum: 111AFA07701B17D4767CF633221C1B36;989.
+
+
+Package rerunfilecheck Warning: File `Matihus_Molina_CV_EN.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Matihus_Molina_CV_EN.out':
+(rerunfilecheck)             Before: DDA046146D9290F3C9822A4D98E64031;1135
+(rerunfilecheck)             After:  C8F58AFB473AD08F661EBDA21737D9FF;1135.
  ) 
 Here is how much of TeX's memory you used:
  26421 strings out of 467866
- 511019 string characters out of 5418313
- 926995 words of memory out of 5000000
- 54833 multiletter control sequences out of 15000+600000
- 664853 words of font info for 90 fonts, out of 8000000 for 9000
+ 510943 string characters out of 5418313
+ 925994 words of memory out of 5000000
+ 54834 multiletter control sequences out of 15000+600000
+ 664713 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,12n,136p,1019b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
@@ -958,9 +965,9 @@ matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C
 b><C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qpl
 r.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre
 /qplri.pfb>
-Output written on Matihus_Molina_CV_EN.pdf (2 pages, 249698 bytes).
+Output written on Matihus_Molina_CV_EN.pdf (2 pages, 250052 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 25677 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 25685 words of extra memory for PDF output out of 29859 (max. 10000000)
 
