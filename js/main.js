@@ -254,65 +254,71 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-// Visor de imágenes para certificados
-function initImageViewer() {
-    // Crear modal si no existe
-    if (!document.getElementById('certModal')) {
-        const modalHTML = `
-            <div id="certModal" class="modal">
-                <span class="modal-close">&times;</span>
-                <img class="modal-content" id="modalImage">
-                <div id="modalCaption"></div>
-            </div>
-        `;
-        document.body.insertAdjacentHTML('beforeend', modalHTML);
-    }
-
+// Función global para abrir modal
+function openModal(imgElement) {
     const modal = document.getElementById('certModal');
     const modalImg = document.getElementById('modalImage');
     const captionText = document.getElementById('modalCaption');
+    
+    if (!modal || !modalImg) return;
+    
+    modal.style.display = 'block';
+    modalImg.src = imgElement.src;
+    
+    // Buscar un título cercano para el caption (opcional)
+    const container = imgElement.closest('.distinction-item') || imgElement.closest('.cert-card');
+    if (container) {
+        const title = container.querySelector('h3')?.innerText || 'Distinción';
+        captionText.innerText = title;
+    } else {
+        captionText.innerText = '';
+    }
+}
+
+// Inicializar modal (ya lo tienes, pero ajustamos)
+function initModal() {
+    const modal = document.getElementById('certModal');
+    if (!modal) return;
+    
     const closeBtn = document.querySelector('.modal-close');
-
-    // Hacer que todas las imágenes de certificados abran el modal
-    document.querySelectorAll('.cert-image').forEach((certImage, index) => {
-        certImage.addEventListener('click', function() {
-            modal.style.display = 'block';
-            
-            // Buscar la imagen dentro de este certificado
-            const img = this.querySelector('img');
-            if (img) {
-                modalImg.src = img.src;
-                
-                // Buscar el título del certificado
-                const card = this.closest('.cert-card');
-                const title = card.querySelector('h3')?.innerText || 'Certificado';
-                const issuer = card.querySelector('.cert-issuer')?.innerText || '';
-                captionText.innerHTML = `${title} - ${issuer}`;
-            }
-        });
-    });
-
-    // Cerrar modal al hacer clic en la X
+    const modalImg = document.getElementById('modalImage');
+    
+    // Cerrar con X
     if (closeBtn) {
-        closeBtn.addEventListener('click', function() {
+        closeBtn.addEventListener('click', () => {
             modal.style.display = 'none';
         });
     }
-
-    // Cerrar modal al hacer clic fuera de la imagen
-    modal.addEventListener('click', function(event) {
-        if (event.target === modal) {
+    
+    // Cerrar haciendo clic fuera
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
             modal.style.display = 'none';
         }
     });
-
-    // Cerrar con tecla ESC
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'Escape' && modal.style.display === 'block') {
+    
+    // Cerrar con ESC
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.style.display === 'block') {
             modal.style.display = 'none';
         }
     });
 }
+
+// Llamar a initModal cuando el DOM esté listo
+document.addEventListener('DOMContentLoaded', function() {
+    initModal();
+    
+    // También asignamos el evento a .cert-image (para compatibilidad)
+    document.querySelectorAll('.cert-image').forEach(container => {
+        container.addEventListener('click', function() {
+            const img = this.querySelector('img');
+            if (img) openModal(img);
+        });
+    });
+    
+    // Las imágenes de distinciones ya tienen onclick="openModal(this)" en HTML
+});
 
 // Inicializar cuando el DOM esté listo
 document.addEventListener('DOMContentLoaded', function() {
