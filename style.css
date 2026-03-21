@@ -4,7 +4,7 @@
     --secondary-color: #1e40af;
     --accent-color: #f59e0b;
     --text-color: #1f2937;
-    --text-light: #6b7280;
+    --text-light: #000000;
     --bg-color: #ffffff;
     --bg-light: #f3f4f6;
     --border-color: #e5e7eb;
@@ -811,4 +811,372 @@ img {
 
 .mb-4 {
     margin-bottom: 2rem;
+}
+
+/* Modal para certificados */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    overflow: auto;
+    animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 85vh;
+    object-fit: contain;
+    border: 3px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    animation: zoomIn 0.3s ease;
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+#modalCaption {
+    margin: 20px auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 10000;
+}
+
+.modal-close:hover {
+    color: var(--primary-color);
+}
+
+/* Para que las imágenes de certificados sean clickeables */
+.cert-image {
+    cursor: pointer;
+}
+
+/* ========== SECCIÓN DISTINCIONES (exclusiva) ========== */
+.distinciones {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #f5f0e8 0%, #faf7f2 100%);
+}
+
+.distinctions-timeline {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.distinction-item {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: var(--shadow-lg);
+    transition: transform 0.3s ease;
+    border-left: 8px solid #d4af37; /* dorado */
+}
+
+.distinction-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Para alternar (imagen a la derecha) */
+.distinction-item.reverse {
+    flex-direction: row-reverse;
+    border-left: none;
+    border-right: 8px solid #d4af37;
+}
+
+.distinction-images {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.distinction-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 4px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.distinction-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-color: #d4af37;
+}
+
+.distinction-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.distinction-year {
+    display: inline-block;
+    background: #d4af37;
+    color: white;
+    font-weight: 700;
+    padding: 0.3rem 1.2rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.distinction-content h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.distinction-awarder {
+    color: #b8860b;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.distinction-description {
+    color: #4a5568;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .distinction-item,
+    .distinction-item.reverse {
+        flex-direction: column;
+        padding: 1.5rem;
+        border-left: 8px solid #d4af37;
+        border-right: none;
+    }
+    
+    .distinction-images {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .distinction-img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .distinction-content h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Contacto horizontal */
+.contact-info-horizontal {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.contact-item-h {
+    text-align: center;
+    padding: 1.5rem;
+    background: var(--bg-light);
+    border-radius: 10px;
+    min-width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.contact-item-h:hover {
+    transform: translateY(-5px);
+}
+
+.contact-item-h i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.contact-item-h h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.contact-item-h p {
+    color: var(--text-light);
+    word-break: break-word;
+}
+
+.contact-item-h a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item-h a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+/* Botón descargar CV */
+.cv-download {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+/* ========== SECCIÓN PONENCIAS (estilo exclusivo) ========== */
+.ponencias {
+    padding: 100px 0;
+    background: #f0f4fa;
+}
+
+.posters-timeline {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.poster-item {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    background: white;
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: var(--shadow-lg);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 5px solid #2c7da0;
+}
+
+.poster-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 30px rgba(0,0,0,0.12);
+}
+
+.poster-images {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.poster-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: 3px solid white;
+}
+
+.poster-img:hover {
+    transform: scale(1.05);
+    border-color: #2c7da0;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.poster-content {
+    flex: 1;
+    padding: 0.5rem;
+}
+
+.poster-year {
+    display: inline-block;
+    background: #2c7da0;
+    color: white;
+    font-weight: 700;
+    padding: 0.3rem 1.2rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.poster-content h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.75rem;
+    color: #1e3a5f;
+    font-weight: 700;
+}
+
+.poster-event {
+    color: #2c7da0;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.poster-description {
+    color: #4a5568;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.poster-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.poster-link:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+/* Responsive para ponencias */
+@media (max-width: 768px) {
+    .poster-item {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    .poster-img {
+        width: 140px;
+        height: 140px;
+    }
+    .poster-content h3 {
+        font-size: 1.3rem;
+    }
 }

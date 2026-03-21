@@ -4,68 +4,32 @@ document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
     
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        navMenu.classList.toggle('active');
-    });
-
-    // Cerrar menú al hacer click en un enlace
-    document.querySelectorAll('.nav-menu a').forEach(link => {
-        link.addEventListener('click', () => {
-            hamburger.classList.remove('active');
-            navMenu.classList.remove('active');
+    if (hamburger && navMenu) {
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
         });
-    });
+
+        // Cerrar menú al hacer click en un enlace
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    }
 
     // Navbar scroll effect
     window.addEventListener('scroll', () => {
         const navbar = document.querySelector('.navbar');
-        if (window.scrollY > 100) {
-            navbar.classList.add('scrolled');
-        } else {
-            navbar.classList.remove('scrolled');
+        if (navbar) {
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
         }
     });
-
-    // Contador animado
-    function animateCounter(element, start, end, duration) {
-        let startTimestamp = null;
-        const step = (timestamp) => {
-            if (!startTimestamp) startTimestamp = timestamp;
-            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-            element.innerText = Math.floor(progress * (end - start) + start);
-            if (progress < 1) {
-                window.requestAnimationFrame(step);
-            }
-        };
-        window.requestAnimationFrame(step);
-    }
-
-    // Iniciar contadores cuando sean visibles
-    const observerOptions = {
-        threshold: 0.5
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const certCount = document.getElementById('cert-count');
-                const hoursCount = document.getElementById('hours-count');
-                const projectsCount = document.getElementById('projects-count');
-                
-                if (certCount && certCount.innerText === '0') {
-                    animateCounter(certCount, 0, 15, 2000);
-                    animateCounter(hoursCount, 0, 500, 2000);
-                    animateCounter(projectsCount, 0, 25, 2000);
-                }
-            }
-        });
-    }, observerOptions);
-
-    const heroSection = document.querySelector('.hero');
-    if (heroSection) {
-        observer.observe(heroSection);
-    }
 
     // Filtro de certificados
     const filterButtons = document.querySelectorAll('.filter-btn');
@@ -73,13 +37,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     filterButtons.forEach(button => {
         button.addEventListener('click', () => {
-            // Actualizar botón activo
             filterButtons.forEach(btn => btn.classList.remove('active'));
             button.classList.add('active');
 
             const filterValue = button.getAttribute('data-filter');
 
-            // Filtrar tarjetas
             certCards.forEach(card => {
                 if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
                     card.style.display = 'block';
@@ -98,74 +60,13 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Cargar más certificados (simulado)
-    const loadMoreBtn = document.getElementById('loadMoreBtn');
-    if (loadMoreBtn) {
-        loadMoreBtn.addEventListener('click', function() {
-            this.innerHTML = 'Cargando... <i class="fas fa-spinner fa-spin"></i>';
-            
-            setTimeout(() => {
-                this.innerHTML = 'Cargar más certificados <i class="fas fa-sync-alt"></i>';
-                alert('Funcionalidad de carga adicional - Aquí cargarías más certificados desde tu base de datos');
-            }, 1500);
-        });
-    }
-
-    // Validación y envío del formulario de contacto
-    const contactForm = document.getElementById('contactForm');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-
-            // Validación básica
-            const name = document.getElementById('name').value.trim();
-            const email = document.getElementById('email').value.trim();
-            const subject = document.getElementById('subject').value.trim();
-            const message = document.getElementById('message').value.trim();
-
-            if (!name || !email || !subject || !message) {
-                showNotification('Por favor, completa todos los campos', 'error');
-                return;
-            }
-
-            if (!isValidEmail(email)) {
-                showNotification('Por favor, ingresa un email válido', 'error');
-                return;
-            }
-
-            // Simular envío
-            const submitBtn = contactForm.querySelector('button[type="submit"]');
-            const originalText = submitBtn.innerHTML;
-            submitBtn.innerHTML = 'Enviando... <i class="fas fa-spinner fa-spin"></i>';
-            submitBtn.disabled = true;
-
-            setTimeout(() => {
-                submitBtn.innerHTML = originalText;
-                submitBtn.disabled = false;
-                contactForm.reset();
-                showNotification('¡Mensaje enviado con éxito! Te contactaré pronto.', 'success');
-            }, 2000);
-        });
-    }
-
-    // Función para validar email
-    function isValidEmail(email) {
-        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return re.test(email);
-    }
-
-    // Función para mostrar notificaciones
-    function showNotification(message, type) {
+    // Función para mostrar notificaciones (si la usas)
+    window.showNotification = function(message, type) {
         const notification = document.createElement('div');
-        notification.className = `notification notification-${type}`;
         notification.innerHTML = `
             <i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'}"></i>
             <span>${message}</span>
         `;
-
-        document.body.appendChild(notification);
-
-        // Estilos para la notificación
         notification.style.position = 'fixed';
         notification.style.top = '20px';
         notification.style.right = '20px';
@@ -176,18 +77,17 @@ document.addEventListener('DOMContentLoaded', function() {
         notification.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
         notification.style.zIndex = '9999';
         notification.style.animation = 'slideIn 0.3s ease';
-
+        document.body.appendChild(notification);
         setTimeout(() => {
             notification.style.animation = 'fadeOut 0.3s ease';
-            setTimeout(() => {
-                document.body.removeChild(notification);
-            }, 300);
+            setTimeout(() => notification.remove(), 300);
         }, 3000);
-    }
+    };
 
     // Animación de barras de progreso
     const skillsSection = document.querySelector('#habilidades');
     if (skillsSection) {
+        const observerOptions = { threshold: 0.5 };
         const skillsObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -199,10 +99,10 @@ document.addEventListener('DOMContentLoaded', function() {
                             bar.style.width = width;
                         }, 100);
                     });
+                    skillsObserver.unobserve(entry.target);
                 }
             });
         }, observerOptions);
-
         skillsObserver.observe(skillsSection);
     }
 
@@ -211,7 +111,6 @@ document.addEventListener('DOMContentLoaded', function() {
         card.addEventListener('mouseenter', function() {
             this.style.transform = 'translateY(-10px)';
         });
-
         card.addEventListener('mouseleave', function() {
             this.style.transform = 'translateY(0)';
         });
@@ -226,42 +125,84 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Scroll suave para enlaces internos
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
+        anchor.addEventListener('click', function(e) {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
         });
     });
 });
 
-// Añadir estilos para animaciones de notificación
-const style = document.createElement('style');
-style.textContent = `
-    @keyframes slideIn {
-        from {
-            transform: translateX(100%);
-            opacity: 0;
-        }
-        to {
-            transform: translateX(0);
-            opacity: 1;
-        }
+// ========== MODAL UNIFICADO PARA IMÁGENES ==========
+function openModal(imgElement) {
+    const modal = document.getElementById('certModal');
+    const modalImg = document.getElementById('modalImage');
+    const captionText = document.getElementById('modalCaption');
+    
+    if (!modal || !modalImg) return;
+    
+    modal.style.display = 'block';
+    modalImg.src = imgElement.src;
+    
+    // Buscar un título cercano para el caption
+    let title = '';
+    const container = imgElement.closest('.cert-card, .distinction-item, .poster-item, .cert-image');
+    if (container) {
+        const h3 = container.querySelector('h3');
+        if (h3) title = h3.innerText;
     }
+    captionText.innerText = title;
+}
 
-    @keyframes fadeOut {
-        from {
-            transform: translateX(0);
-            opacity: 1;
-        }
-        to {
-            transform: translateX(100%);
-            opacity: 0;
-        }
+function initModal() {
+    const modal = document.getElementById('certModal');
+    if (!modal) return;
+    
+    const closeBtn = document.querySelector('.modal-close');
+    
+    if (closeBtn) {
+        closeBtn.addEventListener('click', () => modal.style.display = 'none');
     }
-`;
-document.head.appendChild(style);
+    
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) modal.style.display = 'none';
+    });
+    
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.style.display === 'block') {
+            modal.style.display = 'none';
+        }
+    });
+    
+    // Hacer que las imágenes de certificados abran modal (por si no tienen onclick)
+    document.querySelectorAll('.cert-image').forEach(container => {
+        container.addEventListener('click', function() {
+            const img = this.querySelector('img');
+            if (img) openModal(img);
+        });
+    });
+}
+
+// Inicializar modal cuando el DOM esté listo
+document.addEventListener('DOMContentLoaded', function() {
+    initModal();
+});
+
+// Añadir estilos para animaciones de notificación (si no existen)
+if (!document.querySelector('#dynamic-styles')) {
+    const style = document.createElement('style');
+    style.id = 'dynamic-styles';
+    style.textContent = `
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        @keyframes fadeOut {
+            from { transform: translateX(0); opacity: 1; }
+            to { transform: translateX(100%); opacity: 0; }
+        }
+    `;
+    document.head.appendChild(style);
+}

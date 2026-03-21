@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Tu CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Barra de navegación -->
@@ -29,6 +29,7 @@
                 <li><a href="#inicio" class="active">Inicio</a></li>
                 <li><a href="#certificados">Certificados</a></li>
                 <li><a href="#distinciones">Distinciones</a></li>
+                <li><a href="#ponencias">Ponencias</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -196,9 +197,9 @@
         </div>
     </section>
 
-    <!-- Distinciones - Diseño exclusivo -->
-    <section id="distinciones" class="distinciones">
-        <div class="container">
+<!-- Distinciones - Diseño exclusivo -->
+<section id="distinciones" class="distinciones">
+    <div class="container">
         <h2 class="section-title">Distinciones y Reconocimientos <span class="title-decoration"></span></h2>
         
         <div class="distinctions-timeline">
@@ -215,12 +216,44 @@
                     <p class="distinction-awarder">UNMSM - Facultad de Ciencias Matemáticas</p>
                     <p class="distinction-description">
                         Reconocimiento por mi trayectoria académica y rendimiento destacado durante el año 2025. 
-                        Este premio es otorgado a los estudiantes con el promedio más alto de la facultad.
+                        Representando a la facultad en eventos académicos en el extranjero.
                         La ceremonia se realizó en el auditorio de la facultad y contó con la presencia de autoridades.
                     </p>
                 </div>
             </div>
-    </section>
+            <!-- Puedes añadir más distinciones aquí -->
+        </div>
+    </div>
+</section>
+
+<!-- POSTERS Y PONENCIAS -->
+<section id="ponencias" class="ponencias">
+    <div class="container">
+        <h2 class="section-title">Ponencias y Pósters <span class="title-decoration"></span></h2>
+        
+        <div class="posters-timeline">
+            <!-- Poster 1 -->
+            <div class="poster-item">
+                <div class="poster-images">
+                    <img src="https://raw.githubusercontent.com/Maticus-7/lane-emden/refs/heads/main/assets/poster.png" alt="Poster Lane-Emden" class="poster-img" onclick="openModal(this)">
+                    <img src="img/HUARAZ_POSTER_1.jpeg" alt="Ceremonia IMMS" class="poster-img" onclick="openModal(this)">
+                    <img src="img/HUARAZ_POSTER_2.jpeg" alt="Foto con autores" class="poster-img" onclick="openModal(this)">
+                </div>
+                <div class="poster-content">
+                    <span class="poster-year">2025</span>
+                    <h3>Mi póster en el VII International Meeting on Mathematical Sciences</h3>
+                    <p class="poster-event">UNASAM - Universidad Nacional Santiago Antúnez de Mayolo</p>
+                    <p class="poster-description">
+                        Es mi primera experiencia presentando un proyecto de investigación en un evento de esta categoría.
+                        El póster aborda soluciones numéricas de la ecuación de Lane-Emden usando métodos de series de potencias.
+                        <br>
+                        <a href="https://imms.pe/postersE.php" target="_blank" class="poster-link">Ver resumen en la web del evento <i class="fas fa-external-link-alt"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Habilidades -->
     <section id="habilidades" class="habilidades">
@@ -268,7 +301,7 @@
                     
                     <!-- Botón de descargar CV -->
                     <div class="cv-download">
-                        <a href="CV/Matihus_Molina_CV_EN.pdf" class="btn-primary" download>Descargar CV <i class="fas fa-download"></i></a>
+                        <a href="CV/Matihus_Molina_CV_ES.pdf" class="btn-primary" download>Descargar CV <i class="fas fa-download"></i></a>
                     </div>
 
                     <div class="about-stats">
@@ -358,7 +391,7 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="js/main.js"></script>
+    <script src="main.js"></script>
 
     <!-- Modal para certificados -->
     <div id="certModal" class="modal">
