@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.12)  4 APR 2026 13:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.12)  4 APR 2026 13:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**./Matihus_Molina_CV_ES.tex
-(Matihus_Molina_CV_ES.tex
+**./Matihus_Molina_CV_ES_ST.tex
+(Matihus_Molina_CV_ES_ST.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (C:\Users\matic\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncv.cls
@@ -779,8 +779,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 19.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 19.
- (Matihus_Molina_CV_ES.aux)
-\openout1 = `Matihus_Molina_CV_ES.aux'.
+ (Matihus_Molina_CV_ES_ST.aux)
+\openout1 = `Matihus_Molina_CV_ES_ST.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -884,9 +884,9 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 19.
-(Matihus_Molina_CV_ES.out) (Matihus_Molina_CV_ES.out)
+(Matihus_Molina_CV_ES_ST.out) (Matihus_Molina_CV_ES_ST.out)
 \@outlinefile=\write4
-\openout4 = `Matihus_Molina_CV_ES.out'.
+\openout4 = `Matihus_Molina_CV_ES_ST.out'.
 
 \pagenumberwidth=\skip107
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
@@ -933,22 +933,23 @@ ic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/
 Users/matic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C
 :/Users/matic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5bra
 nds0.enc}{C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawes
-ome5/fa5free0.enc}] [2] (Matihus_Molina_CV_ES.aux)
+ome5/fa5free0.enc}] [2] (Matihus_Molina_CV_ES_ST.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `Matihus_Molina_CV_ES.out' has not changed.
-(rerunfilecheck)             Checksum: CB6D92B223B9A95CFD70462CF31F390D;1290.
+Package rerunfilecheck Info: File `Matihus_Molina_CV_ES_ST.out' has not changed
+.
+(rerunfilecheck)             Checksum: 0AC04749E6D4F753468CB3FE4929AEF4;1181.
  ) 
 Here is how much of TeX's memory you used:
- 26425 strings out of 467866
- 510979 string characters out of 5418313
- 925995 words of memory out of 5000000
+ 26429 strings out of 467866
+ 511075 string characters out of 5418313
+ 927004 words of memory out of 5000000
  54834 multiletter control sequences out of 15000+600000
- 664993 words of font info for 91 fonts, out of 8000000 for 9000
+ 665273 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,12n,136p,1019b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,12n,136p,1022b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/matic/App
@@ -959,7 +960,7 @@ matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C
 qplb.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-g
 yre/qplr.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/t
 ex-gyre/qplri.pfb>
-Output written on Matihus_Molina_CV_ES.pdf (2 pages, 258835 bytes).
+Output written on Matihus_Molina_CV_ES_ST.pdf (2 pages, 259220 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
