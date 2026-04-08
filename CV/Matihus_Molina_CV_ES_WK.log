@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.12)  4 APR 2026 13:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.12)  7 APR 2026 23:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -777,29 +777,30 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip106
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 19.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 19.
+Package hyperref Info: Option `colorlinks' set `true' on input line 13.
+Package hyperref Info: Option `breaklinks' set `true' on input line 29.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 29.
  (Matihus_Molina_CV_ES_WK.aux)
 \openout1 = `Matihus_Molina_CV_ES_WK.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 (C:\Users\matic\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -826,16 +827,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 19.
-Package microtype Info: Applying patch `item' on input line 19.
-Package microtype Info: Applying patch `toc' on input line 19.
-Package microtype Info: Applying patch `eqnum' on input line 19.
+LaTeX Info: Redefining \microtypecontext on input line 29.
+Package microtype Info: Applying patch `item' on input line 29.
+Package microtype Info: Applying patch `toc' on input line 29.
+Package microtype Info: Applying patch `eqnum' on input line 29.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 19.
+Package microtype Warning: Unable to apply patch `footnote' on input line 29.
 
-Package microtype Info: Applying patch `verbatim' on input line 19.
-LaTeX Info: Redefining \microtypesetup on input line 19.
+Package microtype Info: Applying patch `verbatim' on input line 29.
+LaTeX Info: Redefining \microtypesetup on input line 29.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -883,86 +884,93 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring ON on input line 29.
 (Matihus_Molina_CV_ES_WK.out) (Matihus_Molina_CV_ES_WK.out)
 \@outlinefile=\write4
 \openout4 = `Matihus_Molina_CV_ES_WK.out'.
 
 \pagenumberwidth=\skip107
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 20.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
+nput line 30.
 
 (C:\Users\matic\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
-mefree1.fd)
-LaTeX Font Info:    Trying to load font information for TS1+qpl on input line 2
+mefree2.fd)
+LaTeX Font Info:    Trying to load font information for TS1+qpl on input line 3
 0.
 
 (C:\Users\matic\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qpl.fd
 File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
 )
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 30.
+
+(C:\Users\matic\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 20.
+ input line 30.
 
 (C:\Users\matic\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 20.
+n input line 30.
 
 (C:\Users\matic\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 20.
+(Font)              <10.95> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 20.
+(Font)              <8> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 20.
+(Font)              <6> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 55.
+(Font)              <7> on input line 64.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 55.
+(Font)              <5> on input line 64.
 
 [1
 
 {C:/Users/matic/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/mati
 c/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Users/mat
-ic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/
+ic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/
 Users/matic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C
-:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5bra
-nds0.enc}{C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawes
-ome5/fa5free0.enc}] [2] (Matihus_Molina_CV_ES_WK.aux)
+:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5fre
+e1.enc}{C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesom
+e5/fa5brands0.enc}{C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
+/fontawesome5/fa5free0.enc}] [2] (Matihus_Molina_CV_ES_WK.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Matihus_Molina_CV_ES_WK.out' has not changed
 .
-(rerunfilecheck)             Checksum: CB6D92B223B9A95CFD70462CF31F390D;1290.
+(rerunfilecheck)             Checksum: B9B17AF70CC7210EC189C43D096F2911;1290.
  ) 
 Here is how much of TeX's memory you used:
- 26425 strings out of 467866
- 511039 string characters out of 5418313
- 926004 words of memory out of 5000000
- 54834 multiletter control sequences out of 15000+600000
- 664993 words of font info for 91 fonts, out of 8000000 for 9000
+ 26454 strings out of 467866
+ 511875 string characters out of 5418313
+ 926031 words of memory out of 5000000
+ 54858 multiletter control sequences out of 15000+600000
+ 665304 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,12n,136p,1022b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/matic/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
-matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C
-:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7
-.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/
-qplb.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-g
-yre/qplr.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/t
-ex-gyre/qplri.pfb>
-Output written on Matihus_Molina_CV_ES_WK.pdf (2 pages, 258835 bytes).
+Data/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Sol
+id.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/tex-gyre/qplb.pfb><C:/Users/matic/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/matic/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/tex-gyre/qplri.pfb>
+Output written on Matihus_Molina_CV_ES_WK.pdf (2 pages, 266907 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
  25685 words of extra memory for PDF output out of 29859 (max. 10000000)
 
