@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.12)  10 APR 2026 19:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.12)  29 APR 2026 12:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -927,15 +927,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 30.
 
-Overfull \hbox (22.50928pt too wide) in paragraph at lines 38--38
+Overfull \hbox (22.50928pt too wide) in paragraph at lines 39--39
 []\T1/qpl/m/n/10.95 (-20) Soy es-tu-di-ante de úl-timo año de matemáti-cas en l
 a UN-MSM, con in-terés en Data Sci-ence.Actualmente
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 64.
+(Font)              <7> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 64.
+(Font)              <5> on input line 65.
 [1
 
 {C:/Users/matic/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/mati
@@ -955,11 +955,11 @@ Package rerunfilecheck Info: File `Matihus_Molina_CV_ES_WK.out' has not changed
 (rerunfilecheck)             Checksum: B9B17AF70CC7210EC189C43D096F2911;1290.
  ) 
 Here is how much of TeX's memory you used:
- 26454 strings out of 467866
- 511877 string characters out of 5418313
+ 26456 strings out of 467866
+ 511895 string characters out of 5418313
  926031 words of memory out of 5000000
  54858 multiletter control sequences out of 15000+600000
- 665304 words of font info for 92 fonts, out of 8000000 for 9000
+ 665444 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,12n,136p,1022b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/matic/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
@@ -973,7 +973,7 @@ e1/public/amsfonts/cm/cmr7.pfb><C:/Users/matic/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/tex-gyre/qplb.pfb><C:/Users/matic/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/matic/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Matihus_Molina_CV_ES_WK.pdf (2 pages, 266708 bytes).
+Output written on Matihus_Molina_CV_ES_WK.pdf (2 pages, 267619 bytes).
 PDF statistics:
  125 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
