@@ -1,9 +1,9 @@
-This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5) (format=lualatex 2026.6.18)  18 JUN 2026 09:27
+This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5) (format=lualatex 2026.7.14)  21 JUL 2026 20:14
  restricted system commands enabled.
 **Matihus_Molina_CV_ES_WK.tex
 (./Matihus_Molina_CV_ES_WK.tex
 LaTeX2e <2026-06-01>
-L3 programming layer <2026-05-26>
+L3 programming layer <2026-06-18>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
@@ -41,7 +41,7 @@ Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
 Inserting `tracingstacklevels' in `input_level_string'. (C:/Users/Matiu/AppData
 /Local/Programs/MiKTeX/tex/latex/moderncv/moderncv.cls
-Document Class: moderncv 2026-01-31 v2.5.1 modern curriculum vitae and letter d
+Document Class: moderncv 2026-06-24 v2.6.1 modern curriculum vitae and letter d
 ocument class
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/base/size11.clo
 File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
@@ -154,7 +154,7 @@ LaTeX Info: Redefining \addtolength on input line 87.
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
 e.sty
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
-Package: expl3 2026-05-26 L3 programming layer (loader) 
+Package: expl3 2026-06-18 L3 programming layer (loader) 
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
 tex.def
@@ -197,12 +197,12 @@ LaTeX Info: Redefining \microtypesetup on input line 3065.
 )
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/moderncv/moderncvcollec
 tion.sty
-Package: moderncvcollection 2026-01-31 v2.5.1 moderncv collections
+Package: moderncvcollection 2026-06-24 v2.6.1 moderncv collections
 \c@collection@iterator=\count282
 )
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/moderncv/moderncvcompat
 ibility.sty
-Package: moderncvcompatibility 2026-01-31 v2.5.1 modern curriculum vitae and le
+Package: moderncvcompatibility 2026-06-24 v2.6.1 modern curriculum vitae and le
 tter compatibility patches
 )
 \c@collection@phones@count=\count283
@@ -218,7 +218,7 @@ tter compatibility patches
 )
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/moderncv/moderncvstyleb
 anking.sty
-Package: moderncvstylebanking 2026-01-31 v2.5.1 modern curriculum vitae and let
+Package: moderncvstylebanking 2026-06-24 v2.6.1 modern curriculum vitae and let
 ter style scheme: banking
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/tex-gyre/tgpagella.sty
@@ -234,26 +234,26 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )))
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/moderncv/moderncviconss
 ymbols.sty
-Package: moderncviconssymbols 2026-01-31 v2.5.1 modern curriculum vitae icons s
+Package: moderncviconssymbols 2026-06-24 v2.6.1 modern curriculum vitae icons s
 elector
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/moderncv/moderncviconsa
 wesome.sty
-Package: moderncviconsawesome 2026-01-31 v2.5.1 modern curriculum vitae icons: 
+Package: moderncviconsawesome 2026-06-24 v2.6.1 modern curriculum vitae icons: 
 awesome
 
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/fontawesom
-e5.sty
-Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
+(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome6/fontawesom
+e6.sty
+Package: fontawesome6 2025/09/16 v6.7.2-3 Font Awesome 6
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l3k
 eys2e.sty
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/fontawesom
-e5-utex-helper.sty
-Package: fontawesome5-utex-helper 2022/05/02 v5.15.4 uTeX helper for fontawesom
-e5
+(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome6/fontawesom
+e6-utex-helper.sty
+Package: fontawesome6-utex-helper 2025/09/16 v6.7.2-3 uTeX helper for fontaweso
+me6
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/luatex/luatexbase/luatexbase.
 sty
@@ -267,24 +267,24 @@ Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 \CatcodeTableOther=\catcodetable14
 \CatcodeTableExpl=\catcodetable15
 )
-LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on i
-nput line 69.
+LaTeX Font Info:    Trying to load font information for TU+fontawesome6free on 
+input line 62.
 
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/tufontawes
-omefree.fd)
-LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on
- input line 70.
+(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome6/tufontawes
+ome6free.fd)
+LaTeX Font Info:    Trying to load font information for TU+fontawesome6brands o
+n input line 63.
 
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/tufontawes
-omebrands.fd)))
+(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome6/tufontawes
+ome6brands.fd)))
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/moderncv/moderncvcolors
 .sty
-Package: moderncvcolors 2026-01-31 v2.5.1 modern curriculum vitae and letter ba
+Package: moderncvcolors 2026-06-24 v2.6.1 modern curriculum vitae and letter ba
 se colors
 ))
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/moderncv/moderncviconsa
 cademic.sty
-Package: moderncviconsacademic 2026-01-31 v2.5.1 modern curriculum vitae icons:
+Package: moderncviconsacademic 2026-06-24 v2.6.1 modern curriculum vitae icons:
  academicons
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/fonts/academicons/academicons
@@ -344,7 +344,7 @@ Package fontspec Info:
 -generic.tex)))
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/moderncv/moderncviconst
 ikz.sty
-Package: moderncviconstikz 2026-01-31 v2.5.1 modern curriculum vitae and letter
+Package: moderncviconstikz 2026-06-24 v2.6.1 modern curriculum vitae and letter
  icons: tickz
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlayer/tikz.
@@ -655,7 +655,7 @@ File: tikzlibrarybabel.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/moderncv/moderncvheadii
 i.sty
-Package: moderncvheadiii 2026-01-31 v2.5.1 modern curriculum vitae and letter h
+Package: moderncvheadiii 2026-06-24 v2.6.1 modern curriculum vitae and letter h
 eader variant: 3
 \makeheaddetailsbox=\box67
 \makeheaddetailstempbox=\box68
@@ -665,12 +665,12 @@ eader variant: 3
 )
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/moderncv/moderncvbodyii
 i.sty
-Package: moderncvbodyiii 2026-01-31 v2.5.1 modern curriculum vitae and letter b
+Package: moderncvbodyiii 2026-06-24 v2.6.1 modern curriculum vitae and letter b
 ody variant: 3
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/moderncv/moderncvskillm
 atrix.sty
-Package: moderncvskillmatrix 2026-01-31 v2.5.1 modern curriculum vitae and lett
+Package: moderncvskillmatrix 2026-06-24 v2.6.1 modern curriculum vitae and lett
 er skill matrix
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty
@@ -680,32 +680,8 @@ Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@dima=\skip79
 \bigstrutjot=\dimen265
 )
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/arydshln/arydshln.sty
-Package: arydshln 2019/02/21 v1.76 
-\dashlinedash=\dimen266
-\dashlinegap=\dimen267
-\adl@box=\box69
-\adl@height=\dimen268
-\adl@heightsave=\dimen269
-\adl@depth=\dimen270
-\adl@depthsave=\dimen271
-\adl@finaldepth=\dimen272
-\adl@columns=\count322
-\adl@ncol=\count323
-\adl@currentcolumn=\count324
-\adl@currentcolumnsave=\count325
-\adl@totalheight=\count326
-\adl@totalheightsave=\count327
-\adl@dash=\count328
-\adl@gap=\count329
-\adl@cla=\count330
-\adl@clb=\count331
-\adl@everyvbox=\toks34
-\adl@LTpagetotal=\dimen273
-)
-==> First Aid for arydshln.sty applied!
 \cvSkill@ShapeSize=\skip80
-\my@repeat@count=\count332
+\my@repeat@count=\count322
 \cvskill@width=\skip81
 \cvskill@descriptorwidth=\skip82
 \cvskill@experiencewidth=\skip83
@@ -730,52 +706,36 @@ Package: arydshln 2019/02/21 v1.76
 \listitemcolumnwidth=\skip101
 \listdoubleitemcolumnwidth=\skip102
 \listitemsymbolspace=\skip103
-\cvitemwithcommentmainbox=\box70
+\cvitemwithcommentmainbox=\box69
 \cvitemwithcommentmainlength=\skip104
 \cvitemwithcommentcommentlength=\skip105
 ))
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/moderncv/moderncvcolorb
 lue.sty
-Package: moderncvcolorblue 2026-01-31 v2.5.1 modern curriculum vitae and letter
+Package: moderncvcolorblue 2026-06-24 v2.6.1 modern curriculum vitae and letter
  color scheme: blue
 )
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks35
-\inpenc@posthook=\toks36
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
-Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-6.
-
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count333
-\Gm@cntv=\count334
-\c@Gm@tempcnt=\count335
-\Gm@bindingoffset=\dimen274
-\Gm@wd@mp=\dimen275
-\Gm@odd@mp=\dimen276
-\Gm@even@mp=\dimen277
-\Gm@layoutwidth=\dimen278
-\Gm@layoutheight=\dimen279
-\Gm@layouthoffset=\dimen280
-\Gm@layoutvoffset=\dimen281
-\Gm@dimlist=\toks37
+\Gm@cnth=\count323
+\Gm@cntv=\count324
+\c@Gm@tempcnt=\count325
+\Gm@bindingoffset=\dimen266
+\Gm@wd@mp=\dimen267
+\Gm@odd@mp=\dimen268
+\Gm@even@mp=\dimen269
+\Gm@layoutwidth=\dimen270
+\Gm@layoutheight=\dimen271
+\Gm@layouthoffset=\dimen272
+\Gm@layoutvoffset=\dimen273
+\Gm@dimlist=\toks34
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
+Package: hyperref 2026-06-17 v7.01r Hypertext links for LaTeX
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefine
 keys.sty
@@ -797,7 +757,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks38
+\pdftexcmds@toks=\toks35
 ))
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
@@ -812,24 +772,24 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count336
+\c@section@level=\count326
 )
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
 ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen282
-\Hy@linkcounter=\count337
-\Hy@pagecounter=\count338
+\@linkdim=\dimen274
+\Hy@linkcounter=\count327
+\Hy@pagecounter=\count328
  (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2026-06-17 v7.01r Hyperref: PDFDocEncoding definition (HO)
 ) (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count339
+\Hy@SavedSpaceFactor=\count329
  (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
-File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-06-17 v7.01r Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Hyper figures OFF on input line 4199.
 Package hyperref Info: Link nesting OFF on input line 4204.
@@ -838,9 +798,9 @@ Package hyperref Info: Plain pages OFF on input line 4214.
 Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4466.
-\c@Hy@tempcnt=\count340
+\c@Hy@tempcnt=\count330
 LaTeX Info: Redefining \url on input line 4805.
-\XeTeXLinkMargin=\dimen283
+\XeTeXLinkMargin=\dimen275
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -850,9 +810,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count341
-\Field@Width=\dimen284
-\Fld@charsize=\dimen285
+\Fld@menulength=\count331
+\Field@Width=\dimen276
+\Fld@charsize=\dimen277
 Package hyperref Info: Hyper figures OFF on input line 6091.
 Package hyperref Info: Link nesting OFF on input line 6096.
 Package hyperref Info: Hyper index ON on input line 6099.
@@ -865,14 +825,14 @@ Package hyperref Info: PDF/A mode OFF on input line 6121.
 Package hyperref Warning: Option `pdfpagelabels' is turned off
 (hyperref)                because \thepage is undefined.
 
-\c@Item=\count342
-\c@Hfootnote=\count343
+\c@Item=\count332
+\c@Hfootnote=\count333
 )
 Package hyperref Info: Driver (autodetected): hluatex.
  (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2026-04-24 v7.01q Hyperref driver for luaTeX
-\Fld@listcount=\count344
-\c@bookmark@seq@number=\count345
+File: hluatex.def 2026-06-17 v7.01r Hyperref driver for luaTeX
+\Fld@listcount=\count334
+\c@bookmark@seq@number=\count335
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
 echeck.sty
@@ -887,47 +847,47 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip106
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 15.
-Package hyperref Info: Option `breaklinks' set `true' on input line 24.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 24.
+Package hyperref Info: Option `colorlinks' set `true' on input line 14.
+Package hyperref Info: Option `breaklinks' set `true' on input line 23.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 23.
  (./Matihus_Molina_CV_ES_WK.aux)
 \openout1 = Matihus_Molina_CV_ES_WK.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count346
-\scratchdimen=\dimen286
-\scratchbox=\box71
-\nofMPsegments=\count347
-\nofMParguments=\count348
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count349
-\MPscratchDim=\dimen287
-\MPnumerator=\count350
-\makeMPintoPDFobject=\count351
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count336
+\scratchdimen=\dimen278
+\scratchbox=\box70
+\nofMPsegments=\count337
+\nofMParguments=\count338
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count339
+\MPscratchDim=\dimen279
+\MPnumerator=\count340
+\makeMPintoPDFobject=\count341
+\everyMPtoPDFconversion=\toks37
 )
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
 ase.sty
@@ -939,13 +899,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 24.
-Package microtype Info: Applying patch `item' on input line 24.
-Package microtype Info: Applying patch `toc' on input line 24.
-Package microtype Info: Applying patch `eqnum' on input line 24.
-Package microtype Info: Applying patch `footnote' on input line 24.
-Package microtype Info: Applying patch `verbatim' on input line 24.
-LaTeX Info: Redefining \microtypesetup on input line 24.
+LaTeX Info: Redefining \microtypecontext on input line 23.
+Package microtype Info: Applying patch `item' on input line 23.
+Package microtype Info: Applying patch `toc' on input line 23.
+Package microtype Info: Applying patch `eqnum' on input line 23.
+Package microtype Info: Applying patch `footnote' on input line 23.
+Package microtype Info: Applying patch `verbatim' on input line 23.
+LaTeX Info: Redefining \microtypesetup on input line 23.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -962,10 +922,6 @@ nRoman.cfg
 File: mt-LatinModernRoman.cfg 2026/02/26 v1.2 microtype config. file: Latin Mod
 ern Roman (RS)
 )
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmr' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -973,57 +929,57 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 24.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 24.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 24.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 24.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 24.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 24.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 24.
-LaTeX Font Info:    Redeclaring math accent \check on input line 24.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 24.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 24.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 24.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 24.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 23.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 23.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 23.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 23.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 23.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 23.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 23.
+LaTeX Font Info:    Redeclaring math accent \check on input line 23.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 23.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 23.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 23.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 23.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 24.
+(Font)              `operators' in the math version `normal' on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 24.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 23.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 24.
+(Font)              `operators' in the math version `bold' on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 24.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 24.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 24.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 24.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 24.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 24.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 24.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 24.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 24.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 24.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1033,15 +989,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(74.68848pt, 448.1309pt, 74.68849pt)
-* v-part:(T,H,B)=(84.50467pt, 633.78513pt, 126.75705pt)
+* h-part:(L,W,R)=(53.77351pt, 489.96083pt, 53.77353pt)
+* v-part:(T,H,B)=(60.84088pt, 692.9446pt, 91.26137pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=448.1309pt
-* \textheight=633.78513pt
-* \oddsidemargin=2.41849pt
-* \evensidemargin=2.41849pt
-* \topmargin=-24.76532pt
+* \textwidth=489.96083pt
+* \textheight=692.9446pt
+* \oddsidemargin=-18.49648pt
+* \evensidemargin=-18.49648pt
+* \topmargin=-48.42911pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -1059,352 +1015,377 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 23.
 (./Matihus_Molina_CV_ES_WK.out) (./Matihus_Molina_CV_ES_WK.out)
 \@outlinefile=\write4
 
 \openout4 = Matihus_Molina_CV_ES_WK.out
 \pagenumberwidth=\skip107
-
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/microtype/mt-TU-empty.c
-fg
-File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
-ndard glyph set (RS)
-)
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmr' (encoding: TS1).
+(microtype)             `fontawesome6free' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+Package microtype Info: Character `.' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `,' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `:' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `;' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `~ (= ~)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `(' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `/' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `_' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbackslash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `.' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `,' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `:' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `;' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `~ (= ~)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `(' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `/' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `_' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbackslash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fontawesome6brands' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `.' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `,' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `:' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `;' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `~ (= ~)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `(' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `/' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `_' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbackslash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 25.
+(Font)              <10.95> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
+(Font)              <8> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
+(Font)              <6> on input line 24.
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.32 ...rú}}{}{Promedio general (CGPA): 15.19/20}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.32 ...rú}}{}{Promedio general (CGPA): 15.19/20}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.32 ...rú}}{}{Promedio general (CGPA): 15.19/20}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.33 ...l LIDEMPERU}{\textnormal{Lima, Perú}}{}{}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33 ...l LIDEMPERU}{\textnormal{Lima, Perú}}{}{}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.33 ...l LIDEMPERU}{\textnormal{Lima, Perú}}{}{}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.46 	\end{itemize}}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.46 	\end{itemize}}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.46 	\end{itemize}}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+Package microtype Info: Character `.' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `,' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `:' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `;' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `~ (= ~)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `(' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `/' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `_' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbackslash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 46.
+(Font)              <7> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 46.
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.53 	\end{itemize}}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.53 	\end{itemize}}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 	\end{itemize}}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.60 	\end{itemize}}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.60 	\end{itemize}}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.60 	\end{itemize}}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+(Font)              <5> on input line 53.
 
 [1
 
-{C:/Users/Matiu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Missing character: There is no – (U+2013) in font ec-lmr10!
-Missing character: There is no – (U+2013) in font ec-lmr10!
-Missing character: There is no – (U+2013) in font ec-lmr10!
-Missing character: There is no – (U+2013) in font ec-lmr10!
-Missing character: There is no – (U+2013) in font ec-lmr10!
-Missing character: There is no – (U+2013) in font ec-lmr10!
-Missing character: There is no – (U+2013) in font ec-lmr10!
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.74 ...ante la idea de hacer la maestría allí.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.74 ...ante la idea de hacer la maestría allí.}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.74 ...ante la idea de hacer la maestría allí.}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.77 ...el de Modelamiento de Cuerpos Estelares. }
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.77 ...el de Modelamiento de Cuerpos Estelares. }
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.77 ...el de Modelamiento de Cuerpos Estelares. }
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.79 ...gramación, destacando en la pre-escuela.}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.79 ...gramación, destacando en la pre-escuela.}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.79 ...gramación, destacando en la pre-escuela.}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[2
-Missing character: There is no – (U+2013) in font ec-lmr10!
-Missing character: There is no – (U+2013) in font ec-lmr10!
-Missing character: There is no – (U+2013) in font ec-lmr10!
-] (./Matihus_Molina_CV_ES_WK.aux)
+{C:/Users/Matiu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+(./Matihus_Molina_CV_ES_WK.aux)
  ***********
 LaTeX2e <2026-06-01>
-L3 programming layer <2026-05-26>
+L3 programming layer <2026-06-18>
  ***********
 Package rerunfilecheck Info: File `Matihus_Molina_CV_ES_WK.out' has not changed
 .
-(rerunfilecheck)             Checksum: B9B17AF70CC7210EC189C43D096F2911;1290.
+(rerunfilecheck)             Checksum: 4F78592C68FDEDD7ADE7006DE42B2863;1383.
 )
 
 Here is how much of LuaTeX's memory you used:
- 29333 strings out of 475703
+ 29821 strings out of 475704
  125240,1373583 words of node,token memory allocated
- 657 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 1 local_par, 4 glue, 3 kern, 1 penalty, 3 glyph, 7 
-attribute, 86 glue_spec, 7 attribute_list, 2 write nodes
-   avail lists: 1:4,2:1036,3:336,4:387,5:362,6:125,7:7635,8:2,9:966,10:3,11:521
- 51439 multiletter control sequences out of 65536+600000
- 59 fonts using 4216727 bytes
- 129i,13n,143p,1019b,1108s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<c:/u
-sers/matiu/appdata/local/programs/miktex/fonts/opentype/public/fontawesome5/font
-awesome5brands-regular-400.otf><c:/users/matiu/appdata/local/programs/miktex/fon
-ts/opentype/public/fontawesome5/fontawesome5free-regular-400.otf>{C:/Users/Matiu
-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<c:/users/matiu/app
-data/local/programs/miktex/fonts/opentype/public/fontawesome5/fontawesome5free-s
-olid-900.otf><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi7.pfb><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/lm/lmb10.pfb><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/lm/lmr10.pfb><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/font
-s/type1/public/lm/lmr8.pfb><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/lm/lmri10.pfb>
-Output written on Matihus_Molina_CV_ES_WK.pdf (2 pages, 173781 bytes).
+ 668 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 1 local_par, 4 glue, 3 kern, 1 penalty, 1 margin_ke
+rn, 4 glyph, 7 attribute, 86 glue_spec, 7 attribute_list, 2 write nodes
+   avail lists: 1:4,2:974,3:337,4:397,5:489,6:122,7:10703,8:2,9:820,10:3,11:921
+ 51951 multiletter control sequences out of 65536+600000
+ 53 fonts using 5555863 bytes
+ 129i,12n,143p,1019b,1446s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/users/matiu/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10
+-italic.otf><c:/users/matiu/appdata/local/programs/miktex/fonts/opentype/public/
+lm/lmroman8-regular.otf><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/open
+type/public/fontawesome6/FontAwesome6Brands-Regular-400.otf><c:/users/matiu/appd
+ata/local/programs/miktex/fonts/opentype/public/fontawesome6/fontawesome6free-re
+gular-400.otf><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/opentype/publi
+c/fontawesome6/FontAwesome6Free-Solid-900.otf><c:/users/matiu/appdata/local/prog
+rams/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><c:/users/matiu/appda
+ta/local/programs/miktex/fonts/opentype/public/lm/lmromandemi10-regular.otf><C:/
+Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pf
+b><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr8.pfb>
+Output written on Matihus_Molina_CV_ES_WK.pdf (2 pages, 88996 bytes).
 
-PDF statistics: 129 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 127 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 1048576)
  88 words of extra memory for PDF output out of 10000 (max. 100000000)
 

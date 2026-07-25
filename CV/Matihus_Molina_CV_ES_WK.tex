@@ -1,12 +1,11 @@
 \documentclass[11pt,a4paper]{moderncv}
-% CAMBIO: Usamos 'casual' para evitar errores con acentos y espacio
 \moderncvstyle{banking} 
 \moderncvcolor{blue}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[scale=0.75]{geometry}
+
+% Aumentamos el 'scale' a 0.82 para solucionar el "Overfull \vbox" y aprovechar mejor la página
+\usepackage[scale=0.82]{geometry}
+% Reintegramos hyperref para que reconozca \hypersetup
 \usepackage{hyperref}
-\usepackage{fontawesome5}
 
 \hypersetup{
 	colorlinks=true,
@@ -25,75 +24,62 @@
 	\makecvtitle
 	
 	\section{Perfil profesional}
-	\cvitem{}{Soy estudiante de último año de matemáticas en la UNMSM, con interés en Data Science. Actualmente fortaleciendo mis capacidades en machine learning mediante el programa Advanced Data Science en Futura. Estoy en el desarrollo de un artículo sobre "La Ecuación de Lane-Emden", poniendo a prueba mis conocimientos en EDP y programación, utilizando diversas librerías en Python. Proyecto que pude presentarlo como ponente en un evento académico en Huaraz. Actualmente busco mi primera experiencia pre-profesional para aplicar mi dominio de Python y rigor analítico en la resolución de problemas.}
+	\cvitem{}{Estudiante de último año de Ciencias Matemáticas en la UNMSM con un sólido rigor analítico enfocado en Inteligencia Artificial y Ciencia de Datos. Cuento con sólida formación matemática y estadística aplicada en el procesamiento de datos estructurados y el desarrollo de modelos predictivos de Machine Learning. Actualmente fortalezco mis habilidades en un programa de Advanced Data Science. Busco mi primera experiencia pre-profesional para aportar valor técnico en la validación, optimización y desarrollo de modelos de IA, transformando datos complejos en decisiones estratégicas en el sector financiero.}
+	
+	\section{Habilidades Técnicas y Tecnologías}
+	\cvitem{Lenguajes}{Python (Pandas, NumPy, Matplotlib, Seaborn), SQL, R, MATLAB, LEAN4.}
+	\cvitem{Machine Learning}{Scikit-learn, PyTorch, Modelado Predictivo y Prescriptivo, Validación de Modelos, Procesamiento de Datos Estructurados, Optimización Matemática, Métodos Numéricos.}
+	\cvitem{Herramientas}{Git, GitHub, Jupyter Notebooks, Power BI, Microsoft Excel (Intermedio), \LaTeX.}
 	
 	\section{Educación}
-	% CORRECCIÓN: Movid0 el "Promedio general" al último argumento (descripción) para evitar que desborde la plantilla.
-	\cventry{03/2022 -- 12/2026 (estimado)}{\textnormal{Estudiante de Bachillerato en Ciencias Matemáticas}}{Universidad Nacional Mayor de San Marcos}{\textnormal{Lima, Perú}}{}{Promedio general (CGPA): 15.19/20}
+	\cventry{03/2022 -- 12/2026 (estimado)}{\textnormal{Estudiante de Bachillerato en Ciencias Matemáticas}}{Universidad Nacional Mayor de San Marcos}{\textnormal{Lima, Perú}}{}{(Perteneciente al décimo superior)}
 	\cventry{2018 -- 2021}{\textnormal{Egresado del Programa de Inglés Integral}}{Centro Cultural LIDEMPERU}{\textnormal{Lima, Perú}}{}{}
 	
-	\section{Idiomas}
-	\cvitem{Inglés}{Intermedio B1}
-	\cvitem{Portugués}{Básico A2}
-	
 	\section{Experiencia en Proyectos e Investigación}
-	\cventry{01/2025 -- 03/2025}{Proyecto: ``Un primer encuentro con los sistemas dinámicos caóticos''}{PICV-UNMSM}{}{}{
-		\begin{itemize}
-			\item Docente asesor: Dr. Jorge L. Crisóstomo
-			\item Estudio de la conjugación topológica entre $Q_c$ y el shift de Bernoulli.
-			\item Aplicación de conceptos de ecuaciones diferenciales, análisis funcional y topología.
-			\item \href{http://bit.ly/3Hj8NvJ}{Click para verlo}
-	\end{itemize}}
-	
 	\cventry{02/2025 -- 03/2025}{Predicción de Depresión en Estudiantes}{Curso: Matemáticas para ML y DS (UNMSM)}{}{}{
 		\begin{itemize}
-			\item Aplicación de probabilidad, estadística y técnicas de machine learning.
-			\item Modelado supervisado con Python y scikit-learn.
-			\item \href{https://github.com/Maticus-7/Mental-Healthy/tree/2bc0dac3f89d9187dfa37b6cd963d69256551167/Depression/University}{Click para verlo}
+			\item Desarrollé un flujo de trabajo de Machine Learning utilizando Python y Scikit-learn para predecir niveles de depresión basados en variables socioeconómicas y académicas.
+			\item Implementé el procesamiento integral de datos estructurados: imputación de nulos, codificación de variables categóricas (One-Hot Encoding) y normalización.
+			\item Entrené y validé modelos supervisados comparando métricas clave como Accuracy, Precision, Recall, F1-Score y análisis de matriz de confusión para optimizar la toma de decisiones.
+			\item \href{https://github.com/Maticus-7/Mental-Healthy/tree/2bc0dac3f89d9187dfa37b6cd963d69256551167/Depression/University}{Haga click aquí para ver el repositorio en GitHub}
+	\end{itemize}}
+%Dar un fin:
+	\cventry{01/2025 -- Presente}{Portafolio: Aprendizaje Estadístico y Optimización Aplicada}{Proyectos de Especialización (Futura \& SaC$^3$)}{}{}{
+		\begin{itemize}
+			\item Desarrollé un repositorio enfocado en la resolución de problemas de probabilidad, estadística computacional y optimización utilizando Python. %Combinar con el tercero
+			\item Implementé y documenté algoritmos prácticos de optimización numérica analizados en el SaC$^3$ y flujos de análisis de datos basados en el programa Advanced Data Science de Futura.
+			\item Apliqué buenas prácticas de control de versiones con Git y GitHub para la estructuración de código limpio y reproducible. %tercero xd
+			\item \href{https://github.com/Maticus-7/Data-Science}{Haga click aquí para ver el repositorio en GitHub}
 	\end{itemize}}
 	
 	\cventry{10/2025 -- 12/2025}{Numerical solution for differential equations of Lane-Emden type}{Modelamiento de Cuerpos Estelares}{}{}{
 		\begin{itemize}
-			\item Análisis de los métodos de descomposición y sus diferencias. 
-			\item Modelamiento numérico de los métodos y su eficacia. 
-			\item \href{https://github.com/Maticus-7/lane-emden}{Click para verlo}
+			\item Diseñé e implementé algoritmos de resolución numérica en Python para resolver ecuaciones diferenciales no lineales aplicadas a modelos físicos.
+			\item Evalué la convergencia teórica y estabilidad computacional de métodos de descomposición matemática frente a esquemas tradicionales.
+			\item \href{https://github.com/Maticus-7/lane-emden}{Haga click aquí para ver el repositorio en GitHub}
 	\end{itemize}}
 	
-	\section{Premios y Distinciones}
-	\cvitem{}{BECA PERMANENCIA 2025, PRONABEC}
-	\cvitem{}{Reconocimiento de mi facultad por mi EXCELENCIA ACADÉMICA}  
 	
 	\section{Actividades extracurriculares}
-	\cvitem{}{Co-director del área de Proyectos e Investigación del IEEE Computational Intelligence Society – UNMSM}
-	\cvitem{}{Exmiembro de la agrupación cultural y artística de salsa SALSUNI – San Marcos}
-	\cvitem{}{Exmiembro del equipo universitario de judo – Universidad Nacional Mayor de San Marcos}
-	\cvitem{}{Research Trainee del Bildheit}
+	\cvitem{}{Co-director del área de Proyectos e Investigación del IEEE Computational Intelligence Society – UNMSM (Gestión de proyectos tecnológicos y talleres de IA/ML).}
+	\cvitem{}{Research Trainee en Bildheit (Investigación aplicada y modelación matemática).}
+	\cvitem{}{Exmiembro del equipo universitario de judo – Universidad Nacional Mayor de San Marcos.}
+	\cvitem{}{Exmiembro de la agrupación cultural y artística de salsa SALSUNI – San Marcos.}
+	
+	\section{Premios y Distinciones}
+	\cvitem{}{BECA PERMANENCIA 2025 -- PRONABEC (Beca otorgada por excelencia académica a nivel nacional).}
+	\cvitem{}{Reconocimiento de mi facultad por mi EXCELENCIA ACADÉMICA (Representando a mi universidad en eventos en el extranjero).}  
 	
 	\section{Eventos académicos}
-	\cventry{Octubre de 2025}{Concepción, Chile}{E'(UBB)=2025}{}{}{
-		Como primera experiencia internacional fue inolvidable, me encantó la ciudad y el conocer otra cultura. Me pareció muy interesante la idea de hacer la maestría allí.}
+	\cventry{Febrero de 2026}{UNT -- Trujillo}{Summer School and Workshop on Optimization and Operator Learning}{}{}{Puse a prueba mis conocimientos en teoría de optimización matemática y programación avanzada, destacando en el desarrollo de la pre-escuela.}
+	\cventry{Diciembre de 2025}{Huaraz, Perú}{VII EICM}{}{}{Ponente del proyecto de investigación enfocado en el Modelamiento Numérico de Cuerpos Estelares.}
+	\cventry{Octubre de 2025}{Concepción, Chile}{E'(UBB)=2025}{}{}{Participación internacional en ponencias y discusiones de matemáticas aplicadas y análisis numérico.}
 	
-	\cventry{Diciembre de 2025}{Huaraz, Perú}{VII EICM}{}{}{
-		Es mi primera experiencia presentando un proyecto de investigación en un evento de esta categoría. El proyecto en cuestión es el de Modelamiento de Cuerpos Estelares. }
-	
-	\cventry{Febrero de 2026}{UNT -- Trujillo}{Summer School and Workshop on Optimization and Operator Learning}{}{}{Participé en este importante evento organizado por el SaC$^3$, poniendo a prueba mis conocimientos en teoría de optimización y programación, destacando en la pre-escuela.}
-	
-	\section{Áreas de interés}
-	\cvitem{Modelamiento y Datos}{
-		\begin{itemize}
-			\item Análisis de Sistemas Complejos y Dinámicas.
-			\item Fundamentos Matemáticos de la Inteligencia Artificial.
-			\item Matemáticas Formalmente Verificadas. 
-	\end{itemize}}
-	
-	\cvitem{Tecnologías}{
-		\begin{itemize}
-			\item Lenguajes: Python, R, MATLAB, LEAN4.
-			\item Machine Learning: Scikit-learn, PyTorch, Análisis Estadístico, Métodos Numéricos.
-			\item Business Intelligence y Ops: Power BI, Git, \LaTeX, Pandas, NumPy.
-	\end{itemize}}
+	\section{Idiomas}
+	\cvitem{Inglés}{Intermedio}
+	\cvitem{Portugués}{Intermedio}
 	
 	\section{Certificados} 
-	\cvitem{}{ \href{https://maticus-7.github.io/Certificates/}{Los certificados y logros académicos los verá en mi página web al hacer click aquí.}}
+	\cvitem{}{ \href{https://maticus-7.github.io/Certificates/}{Los certificados y logros académicos los podrá ver en mi portafolio web haciendo click aquí.}}
 	
 \end{document}
