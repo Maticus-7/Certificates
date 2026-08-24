@@ -2,6 +2,8 @@
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 \usepackage[scale=0.75]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{hyperref}
 
 % -----------------------------
@@ -12,117 +14,95 @@
 \email{matihus.molina@unmsm.edu.pe}
 \social[linkedin]{maticus}
 \social[github]{Maticus-7}
+\extrainfo{\href{http://lattes.cnpq.br/4261863091619974}{Currículo Lattes: 4261863091619974}}
 
+% -----------------------------
 \begin{document} 
 	\makecvtitle
 	
 	% -----------------------------
-	% Perfil Profissional
+	% Perfil profissional
 	% -----------------------------
 	\section{Perfil Profissional}
 	\cvitem{}{Sou aluno do último ano do Bacharelado em Matemática Pura na Universidad Nacional Mayor de San Marcos (UNMSM). Minha pesquisa atual concentra-se em Sistemas Dinâmicos e Teoria Ergódica, especificamente no estudo de estabilidades topológicas no círculo ($S^1$). Paralelamente, possuo uma sólida base em métodos numéricos, otimização e aprendizado de máquina (Machine Learning), integrando o rigor analítico com ferramentas computacionais avançadas. Tenho como objetivo principal ingressar em um programa de mestrado de excelência no Brasil para desenvolver pesquisas rigorosas em difeomorfismos de Anosov e dinâmica parcialmente hiperbólica.}
 	
 	% -----------------------------
-	% Formação Acadêmica
+	% Formação Académica
 	% -----------------------------
-	\section{Formação Acadêmica}
-	\cventry{03/2022 -- 12/2026 (Previsão)}{Bacharelado em Ciências Matemáticas}{Universidad Nacional Mayor de San Marcos (UNMSM)}{Lima, Peru}{}{
-		\begin{itemize}
-			\item Coeficiente de Rendimento (CR) / Média Geral: 15.19/20.00
-			\item Reconhecimento por Excelência Acadêmica outorgado pela Faculdade.
-	\end{itemize}}
-	
-	\cventry{2018 -- 2021}{Programa Integral de Língua Inglesa}{Centro Cultural LIDEMPERU}{Lima, Peru}{}{}
+	\section{Formação Académica}
+	\cventry{03/2022 -- 12/2026 (Previsão)}{Bacharelado em Ciências Matemáticas}{Universidad Nacional Mayor de San Marcos (UNMSM)}{Lima, Peru}{}{Média Geral / Coeficiente de Rendimento: 15.324/20}
 	
 	% -----------------------------
 	% Idiomas
 	% -----------------------------
 	\section{Idiomas}
 	\cvitem{\textbf{Espanhol}}{Nativo}
-	\cvitem{\textbf{Inglês}}{Intermediário B1 (Leitura acadêmica proficiente)}
-	\cvitem{\textbf{Português}}{Básico A2 (Em contínuo desenvolvimento)}
+	\cvitem{\textbf{Inglês}}{Intermédio B1 (Diplomado pelo Centro Cultural LIDEMPERÚ. Em preparação para certificação internacional)}
+	\cvitem{\textbf{Português}}{Básico A2}
 	
 	% -----------------------------
-	% Projetos de Pesquisa e Acadêmicos
+	% Projetos de Investigação e Académicos
 	% -----------------------------
-	\section{Projetos de Pesquisa}
+	\section{Projetos de Investigação}
 	
-	\cventry{04/2026 -- Presente}{Projeto de Tese: ``Sistemas Dinâmicos e Estabilidades Topológicas''}{UNMSM}{Pesquisador Principal}{}{
+	\cventry{}{Investigação Atual Independente}{Solução numérica para equações singulares do tipo Lane-Emden por ADM e método de volumes finitos}{}{}{
+		\begin{itemize}
+			\item Extensão do teorema de existência e unicidade para o problema de Lane-Emden generalizado não homogéneo através de um sistema EDO de primeira ordem $3 \times 3$.
+			\item Estimação numérica através de métodos de volumes finitos e contraste com Redes Neuronais (PINNs).
+			\item \href{https://vii.imms.pe/documentos/26PosterMolinaLarios.pdf}{[Clique aqui para ver o póster oficial (Apresentado no VII EICM)]}
+			\item \href{https://maticus-7.github.io/lane-emden/}{[Clique aqui para ver o repositório no GitHub]}
+	\end{itemize}}	
+	
+	\cventry{02/2026 -- 03/2026}{Otimização Numérica e Aprendizagem de Operadores}{SaC$^3$ -- Summer School and Workshop}{}{}{
+		\begin{itemize}
+			\item \textbf{Orientador:} Leonidas Gkimisis.
+			\item Implementei e documentei em Python algoritmos de otimização matemática analisados no workshop, aplicando controlo de versões com Git/GitHub para garantir código reprodutível.
+			\item \href{https://github.com/Maticus-7/Data-Science}{[Clique aqui para ver o repositório no GitHub]}
+	\end{itemize}}
+	
+	\cventry{01/2025 -- 03/2025}{Um primeiro encontro com os sistemas dinâmicos caóticos}{PICV-UNMSM}{}{}{
 		\begin{itemize}
 			\item \textbf{Orientador:} Dr. Jorge L. Crisóstomo.
-			\item Estudo de condições suficientes e relações para estabilidade topológica em sistemas dinâmicos no círculo ($S^1$).
-			\item Análise de estabilidade topológica clássica (POTP de Walters), estabilidade para medidas expansivas e estabilidade no sentido de Gromov-Hausdorff.
-	\end{itemize}}
-	
-	\cventry{10/2025 -- 12/2025}{Solução Numérica para Equações Diferenciais do tipo Lane-Emden}{Modelagem de Corpos Estelares}{}{}{
-		\begin{itemize}
-			\item Análise de métodos de decomposição e suas propriedades de convergência.
-			\item Modelagem numérica computacional para testar a eficácia de aproximações de equações singulares.
-			\item \href{https://github.com/Maticus-7/lane-emden}{[Clique para acessar o repositório]}
-	\end{itemize}}
-	
-	\cventry{01/2025 -- 03/2025}{Um Primeiro Encontro com os Sistemas Dinâmicos Caóticos}{PICV-UNMSM}{}{}{
-		\begin{itemize}
-			\item \textbf{Orientador:} Dr. Jorge L. Crisóstomo.
-			\item Estudo detalhado da conjugação topológica entre a família quadrática $Q_c$ e o \textit{shift} de Bernoulli.
-			\item Aplicação de conceitos de análise funcional e topologia.
-			\item \href{http://bit.ly/3Hj8NvJ}{[Clique para acessar o documento]}
-	\end{itemize}}
-	
-	\cventry{02/2025 -- 03/2025}{Previsão de Depressão em Estudantes Universitários}{Matemática para ML e DS}{}{}{
-		\begin{itemize}
-			\item Aplicação de probabilidade, estatística e aprendizado supervisionado (Python e scikit-learn).
-			\item \href{https://github.com/Maticus-7/Mental-Healthy/tree/2bc0dac3f89d9187dfa37b6cd963d69256551167/Depression/University}{[Clique para acessar o projeto]}
+			\item Estudo da conjugação topológica entre a família quadrática $Q_c$ e o \textit{shift} de Bernoulli, aplicando conceitos de equações diferenciais, análise funcional e topologia.
+			\item \href{http://bit.ly/3Hj8NvJ}{[Clique aqui para ver o documento de investigação]}
 	\end{itemize}}
 	
 	% -----------------------------
-	% Eventos Acadêmicos
+	% Eventos Académicos e Internacionalização
 	% -----------------------------
-	\section{Participação em Eventos Acadêmicos}
+	\section{Mobilidade Internacional e Eventos Académicos}
 	
-	\cventry{Fevereiro 2026}{Summer School and Workshop on Optimization and Operator Learning}{Universidade Nacional de Trujillo (UNT) / SaC$^3$}{Peru}{}{
-		Participação no treinamento avançado em teoria de otimização, métodos numéricos, redes neurais e aprendizado de operadores em dimensão infinita.}
+	\cventry{Setembro 2026}{13th Heidelberg Laureate Forum (HLF)}{Heidelberg}{Alemanha}{}{Selecionado mundialmente como \textit{Young Researcher}. Participação no fórum internacional que reúne os vencedores da Medalha Fields, Prémio Abel e Prémio Turing com jovens investigadores excecionais.}
 	
-	\cventry{Dezembro 2025}{VII Encontro Internacional de Ciências Matemáticas (EICM)}{Huaraz}{Peru}{}{
-		Apresentação oficial do projeto de pesquisa independente sobre Modelagem de Corpos Estelares e soluções para equações do tipo Lane-Emden.}
+	\cventry{Agosto 2026}{Programa ``San Marquinos pelo Mundo'' (Universidade do Chile)}{Santiago}{Chile}{}{Estágio académico internacional selecionado por ordem de mérito (Top 2 da Escola Profissional). Curso de especialização (40 horas): \textit{Desafios Globais, Transformação Digital e Inovação}.}
 	
-	\cventry{Outubro 2025}{Encontro de Matemática E'(UBB)=2025}{Universidad del Bío-Bío}{Concepción, Chile}{}{
-		Primeira experiência acadêmica internacional. Participação em palestras e minicursos focados em pesquisa matemática contemporânea na América Latina.}
+	\cventry{Dezembro 2025}{VII Encontro Internacional de Ciências Matemáticas (EICM)}{Huaraz}{Peru}{}{Palestrante. Apresentação do póster de investigação sobre soluções numéricas para a equação de Lane-Emden.}
 	
 	% -----------------------------
-	% Áreas de Interesse
+	% Competências Técnicas
 	% -----------------------------
-	\section{Áreas de Interesse e Tecnologias}
-	
-	\cvitem{\textbf{Matemática Pura}}{Teoria Ergódica, Sistemas Dinâmicos, Estabilidade Topológica, Análise Funcional.}
-	\cvitem{\textbf{Matemática Aplicada}}{Fundamentos Matemáticos da Inteligência Artificial (Deep Learning), Métodos Numéricos.}
-	\cvitem{\textbf{Tecnologias}}{
-		\begin{itemize}
-			\item \textbf{Linguagens e Software:} Python, R, MATLAB, LEAN4.
-			\item \textbf{Bibliotecas:} NumPy, SciPy, Pandas, Scikit-Learn, PyTorch, Matplotlib.
-			\item \textbf{Ferramentas:} Git, \LaTeX, Power BI.
-	\end{itemize}}
+	\section{Competências Técnicas}
+	\cvitem{\textbf{Linguagens e Ambientes}}{Python, R, MATLAB, LEAN4, Git, \LaTeX, Power BI.}
+	\cvitem{\textbf{Bibliotecas}}{NumPy, SciPy, Pandas, Scikit-Learn, PyTorch, Matplotlib.}
 	
 	% ------------------------------
-	% Prêmios e Distinções
+	% Prémios e Distinções
 	% ------------------------------
-	\section{Prêmios e Distinções}
-	\cvitem{2025}{Bolsa Permanência PRONABEC (Bolsa nacional de excelência acadêmica e mérito integral do governo peruano).}
-	\cvitem{2025}{Reconhecimento pela Excelência Acadêmica representando minha faculdade em eventos no exterior.  (Faculdade de Ciências Matemáticas, UNMSM).}  
+	\section{Prémios e Distinções}
+	\cvitem{2025}{Bolsa Permanência de Estudos Nacionais, concedida pelo PRONABEC devido a elevado rendimento académico.}
+	\cvitem{2025}{Reconhecimento de Excelência Académica concedido pela Faculdade de Ciências Matemáticas da UNMSM.}  
 	
 	% -----------------------------
-	% Atividades Extracurriculares
+	% Atividades extracurriculares
 	% -----------------------------
-	\section{Atividades Extracurriculares}
-	\cvitem{}{Diretor e Colaborador Ativo na \textit{IEEE Computational Intelligence Society} (Capítulo UNMSM).}
-	\cvitem{}{Membro Ativo e Pesquisador no grupo \textit{BILDHEIT}.}
-	\cvitem{}{Ex-membro da equipe oficial de judô da Universidad Nacional Mayor de San Marcos.}
-	\cvitem{}{Ex-membro do grupo artístico e cultural SALSUNI.}
+	\section{Liderança e Atividades Extracurriculares}
+	\cvitem{\textbf{Atual}}{Diretor da área de Projetos e Investigação da \textit{IEEE Computational Intelligence Society} (UNMSM) e \textit{Trainee Researcher} do grupo BILDHEIT.}
+	\cvitem{\textbf{Anterior}}{Ex-membro da equipa universitária de judo (UNMSM) e do grupo artístico SALSUNI.}
 	
 	% -----------------------------
 	% Certificados
 	% -----------------------------
-	\section{Certificados} 
-	\cvitem{}{ \href{https://maticus-7.github.io/Certificates/}{Os certificados de cursos, participação em congressos e realizações acadêmicas estão disponíveis clicando neste repositório oficial}.}
+	\section{Certificados e Portefólio} 
+	\cvitem{}{ \href{https://maticus-7.github.io/Certificates/}{Os certificados de cursos, perfil Lattes e realizações académicas estão disponíveis no meu repositório digital (Clique aqui)}.}
 	
 \end{document}

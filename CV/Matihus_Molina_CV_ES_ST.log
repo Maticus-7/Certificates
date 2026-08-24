@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5) (format=lualatex 2026.7.14)  14 JUL 2026 23:52
+This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5) (format=lualatex 2026.7.24)  6 AUG 2026 18:43
  restricted system commands enabled.
 **Matihus_Molina_CV_ES_ST.tex
 (./Matihus_Molina_CV_ES_ST.tex
@@ -734,7 +734,23 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen273
 \Gm@dimlist=\toks34
 
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
+(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks35
+\inpenc@posthook=\toks36
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+6.
+
+(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-06-17 v7.01r Hypertext links for LaTeX
 
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefine
@@ -757,7 +773,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks35
+\pdftexcmds@toks=\toks37
 ))
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
@@ -847,375 +863,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip106
 )
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/fontawesom
-e5.sty
-Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
-
-
-! LaTeX Error: Control sequence \l_fontawesome_style_str already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.48 \str_new:N\l_fontawesome_style_str
-                                       
-
-This is a coding error.
-
-LaTeX has been asked to create a new control sequence
-'\l_fontawesome_style_str' but this name has already been used elsewhere.
-
-The current meaning is:
-  macro:->solid
-
-
-
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/fontawesom
-e5-utex-helper.sty
-Package: fontawesome5-utex-helper 2022/05/02 v5.15.4 uTeX helper for fontawesom
-e5
-
-
-! LaTeX Error: Control sequence \__fontawesome_analyze_font:nn already
-(LaTeX)        defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.68 }
-      
-
-This is a coding error.
-
-LaTeX has been asked to create a new control sequence
-'\__fontawesome_analyze_font:nn' but this name has already been used
-elsewhere.
-
-The current meaning is:
-  \long macro:#1#2->\group_begin: \usefont
-{TU}{fontawesome6#1}{#2}{n}\lua_now:e
-{fontawesome6_analyze_current_font(\tex_fontid:D \tex_font:D )}\group_end: 
-
-
-LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on i
-nput line 69.
-
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/tufontawes
-omefree.fd)
-LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on
- input line 70.
-
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/tufontawes
-omebrands.fd)
-
-! LaTeX Error: Control sequence \l__fontawesome_duotone_bool already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.72 \bool_new:N \l__fontawesome_duotone_bool
-                                             
-
-This is a coding error.
-
-LaTeX has been asked to create a new control sequence
-'\l__fontawesome_duotone_bool' but this name has already been used elsewhere.
-
-The current meaning is:
-  \char"0
-
-
-
-! LaTeX Error: Control sequence \l_fontawesome_duotone_secondary_style_tl
-(LaTeX)        already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.73 ... \l_fontawesome_duotone_secondary_style_tl
-                                                  
-
-This is a coding error.
-
-LaTeX has been asked to create a new control sequence
-'\l_fontawesome_duotone_secondary_style_tl' but this name has already been
-used elsewhere.
-
-The current meaning is:
-  macro:->\color {.!30!white}
-
-
-
-! LaTeX Error: Control sequence \fontawesome_use_icon:nn already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.138 }
-       
-
-This is a coding error.
-
-LaTeX has been asked to create a new control sequence
-'\fontawesome_use_icon:nn' but this name has already been used elsewhere.
-
-The current meaning is:
-  \long macro:#1#2->\group_begin: \usefont
-{TU}{fontawesome6\c__fontawesome_kind_tl }{#1}{n}\bool_set:Nn
-\l__fontawesome_duotone_bool {\str_if_eq_p:ee
-{#1}{duotone-solid}||\str_if_eq_p:ee {#1}{duotone-regular}||\str_if_eq_p:ee
-{#1}{duotone-light}||\str_if_eq_p:ee {#1}{duotone-thin}||\str_if_eq_p:ee
-{#1}{sharp-duotone-solid}||\str_if_eq_p:ee
-{#1}{sharp-duotone-regular}||\str_if_eq_p:ee
-{#1}{sharp-duotone-light}||\str_if_eq_p:ee
-{#1}{sharp-duotone-thin}}\int_set:Nn \l_tmpa_int {\__fontawesome_glyphindex:n
-{#2\bool_if:NT \l__fontawesome_duotone_bool {-primary}}}\int_compare:nNnT
-{\l_tmpa_int }={0}{\fontseries {solid}\selectfont \int_set:Nn \l_tmpa_int
-{\__fontawesome_glyphindex:n {#2}}\int_compare:nNnTF {\l_tmpa_int
-}={0}{\fontfamily {fontawesome6brands}\fontseries {regular}\selectfont
-\int_set:Nn \l_tmpa_int {\__fontawesome_glyphindex:n {#2}}\int_compare:nNnT
-{\l_tmpa_int }={0}{\msg_error:nnxx
-{fontawesome6}{icon-not-found}{#2}{#1}}}{\msg_warning:nnxx
-{fontawesome6}{style-substitution}{#2}{#1}}}\bool_if:NTF
-\c__fontawesome_fixed_bool {\makebox [1.5em][c]}{\use:n }{\bool_if:NTF
-\l__fontawesome_duotone_bool {\__fontawesome_glyph:w \l_tmpa_int \int_set:Nn
-\l_tmpa_int {\__fontawesome_glyphindex:n {#2-secondary}}\int_compare:nNnF
-{\l_tmpa_int }={0}{\llap {\l_fontawesome_duotone_secondary_style_tl
-{\__fontawesome_glyph:w \l_tmpa_int }}}}{\__fontawesome_glyph:w \l_tmpa_int
-}}\group_end: 
-
-
-
-! LaTeX cmd Error: Command '\faDuotoneSetSecondary' already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.142 }
-       
-
-You have used \NewDocumentCommand with a command that already has a
-definition.
-
-The existing definition of '\faDuotoneSetSecondary' will not be altered.
-
-
-)
-
-! LaTeX cmd Error: Command '\faPreselectedIcon' already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.76 }
-      
-
-You have used \NewDocumentCommand with a command that already has a
-definition.
-
-The existing definition of '\faPreselectedIcon' will not be altered.
-
-
-
-! LaTeX cmd Error: Command '\faIcon' already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.79 }
-      
-
-You have used \NewDocumentCommand with a command that already has a
-definition.
-
-The existing definition of '\faIcon' will not be altered.
-
-
-
-! LaTeX Error: Control sequence \fontawesome_set_style:n already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.80 \cs_new_protected:Npn\fontawesome_set_style:n
-                                                  {
-
-This is a coding error.
-
-LaTeX has been asked to create a new control sequence
-'\fontawesome_set_style:n' but this name has already been used elsewhere.
-
-The current meaning is:
-  \protected\long macro:->\str_set:Nn \l_fontawesome_style_str 
-
-
-
-! LaTeX cmd Error: Command '\faStyle' already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.86 }
-      
-
-You have used \NewDocumentCommand with a command that already has a
-definition.
-
-The existing definition of '\faStyle' will not be altered.
-
-
-
-! LaTeX Error: Control sequence \faH already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.88 \cs_new_protected:Npn\faH
-                              #1{\faPreselectedIcon{h#1}}
-
-This is a coding error.
-
-LaTeX has been asked to create a new control sequence '\faH' but this name has
-already been used elsewhere.
-
-The current meaning is:
-  \protected\long macro:->\faPreselectedIcon {h}
-
-
-
-! LaTeX cmd Error: Command '\faRepeat' already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.91 }
-      
-
-You have used \NewDocumentCommand with a command that already has a
-definition.
-
-The existing definition of '\faRepeat' will not be altered.
-
-
-
-! LaTeX Error: Control sequence \fa__select_ii:nnn already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.92 \cs_new_protected:Npn\fa__select_ii:nnn
-                                            #1#2#3{
-
-This is a coding error.
-
-LaTeX has been asked to create a new control sequence '\fa__select_ii:nnn' but
-this name has already been used elsewhere.
-
-The current meaning is:
-  \protected\long macro:#1#2#3->\cs_if_exist_use:cF
-{fa__#1_#2#3:}{\faPreselectedIcon {#1}#2}
-
-
-
-! LaTeX Error: Control sequence \fa__select:nn already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.97 \cs_new_protected:Npn\fa__select:nn
-                                        #1#2{
-
-This is a coding error.
-
-LaTeX has been asked to create a new control sequence '\fa__select:nn' but
-this name has already been used elsewhere.
-
-The current meaning is:
-  \protected\long macro:#1#2->\cs_if_exist_use:cF
-{fa__#1_#2:}{\peek_catcode:NTF 0{\fa__select_ii:nnn
-{#1}{#2}}{\faPreselectedIcon {#1}#2}}
-
-
-
-! LaTeX Error: Control sequence \fa__select:nw already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.106 \cs_new_protected:Npn\fa__select:nw
-                                         #1{
-
-This is a coding error.
-
-LaTeX has been asked to create a new control sequence '\fa__select:nw' but
-this name has already been used elsewhere.
-
-The current meaning is:
-  \protected\long macro:#1->\peek_catcode:NTF 0{\fa__select:nn
-{#1}}{\faPreselectedIcon {#1}}
-
-
-
-! LaTeX cmd Error: Command '\faDiceD' already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.128 }
-       
-
-You have used \NewDocumentCommand with a command that already has a
-definition.
-
-The existing definition of '\faDiceD' will not be altered.
-
-
-
-! LaTeX cmd Error: Command '\faWifi' already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.136 }
-       
-
-You have used \NewDocumentCommand with a command that already has a
-definition.
-
-The existing definition of '\faWifi' will not be altered.
-
-
-
-! LaTeX cmd Error: Command '\faSignal' already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.156 }
-       
-
-You have used \NewDocumentCommand with a command that already has a
-definition.
-
-The existing definition of '\faSignal' will not be altered.
-
-
-
-! LaTeX cmd Error: Command '\faStopwatch' already defined.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.170 }
-       
-
-You have used \NewDocumentCommand with a command that already has a
-definition.
-
-The existing definition of '\faStopwatch' will not be altered.
-
-
-)
 Package hyperref Info: Option `breaklinks' set `true' on input line 19.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 19.
  (./Matihus_Molina_CV_ES_ST.aux)
@@ -1250,12 +897,12 @@ ii
 \scratchbox=\box70
 \nofMPsegments=\count337
 \nofMParguments=\count338
-\everyMPshowfont=\toks36
+\everyMPshowfont=\toks38
 \MPscratchCnt=\count339
 \MPscratchDim=\dimen279
 \MPnumerator=\count340
 \makeMPintoPDFobject=\count341
-\everyMPtoPDFconversion=\toks37
+\everyMPtoPDFconversion=\toks39
 )
 (C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
 ase.sty
@@ -1290,6 +937,10 @@ nRoman.cfg
 File: mt-LatinModernRoman.cfg 2026/02/26 v1.2 microtype config. file: Latin Mod
 ern Roman (RS)
 )
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1389,12 +1040,240 @@ Package hyperref Info: Link coloring OFF on input line 19.
 
 \openout4 = Matihus_Molina_CV_ES_ST.out
 \pagenumberwidth=\skip107
-
-(C:/Users/Matiu/AppData/Local/Programs/MiKTeX/tex/latex/microtype/mt-TU-empty.c
-fg
-File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
-ndard glyph set (RS)
-)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fontawesome6free' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `.' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `,' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `:' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `;' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `~ (= ~)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `(' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `/' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `_' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbackslash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `.' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `,' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `:' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `;' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `~ (= ~)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `(' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `/' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `_' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbackslash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/solid/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fontawesome6brands' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `.' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `,' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `:' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `;' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `~ (= ~)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `(' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `/' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `_' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbackslash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6brands/regular/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1406,11 +1285,95 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 55.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 55.
+Overfull \hbox (29.69725pt too wide) in alignment at lines 54--54
+[] []
+ []
 
+Package microtype Info: Character `.' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `,' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `:' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `;' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `~ (= ~)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `(' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `)' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `/' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `_' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbackslash ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceleft ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textbraceright ' has a width of 0pt 
+(microtype)             in font `TU/fontawesome6free/regular/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 54.
 [1
 
 {C:/Users/Matiu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
@@ -1421,33 +1384,37 @@ L3 programming layer <2026-06-18>
  ***********
 Package rerunfilecheck Info: File `Matihus_Molina_CV_ES_ST.out' has not changed
 .
-(rerunfilecheck)             Checksum: 0AC04749E6D4F753468CB3FE4929AEF4;1181.
+(rerunfilecheck)             Checksum: CF19E0E93C4B6A4F40D4C7B1DA87ED26;1471.
 )
 
 Here is how much of LuaTeX's memory you used:
- 30691 strings out of 475704
+ 29930 strings out of 475704
  125240,1373583 words of node,token memory allocated
- 657 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 1 local_par, 4 glue, 3 kern, 1 penalty, 3 glyph, 7 
-attribute, 86 glue_spec, 7 attribute_list, 2 write nodes
-   avail lists: 1:4,2:902,3:300,4:315,5:362,6:117,7:7681,8:2,9:790,10:5,11:587
- 52796 multiletter control sequences out of 65536+600000
- 56 fonts using 5061231 bytes
- 129i,12n,143p,1019b,1446s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/users/matiu/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman8-
-regular.otf><c:/users/matiu/appdata/local/programs/miktex/fonts/opentype/public/
-lm/lmroman10-italic.otf><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/open
-type/public/fontawesome5/FontAwesome5Brands-Regular-400.otf><C:/Users/Matiu/AppD
-ata/Local/Programs/MiKTeX/fonts/opentype/public/fontawesome5/FontAwesome5Free-Re
-gular-400.otf><c:/users/matiu/appdata/local/programs/miktex/fonts/opentype/publi
-c/lm/lmroman10-regular.otf><c:/users/matiu/appdata/local/programs/miktex/fonts/o
-pentype/public/lm/lmromandemi10-regular.otf><C:/Users/Matiu/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Matiu/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Matiu/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on Matihus_Molina_CV_ES_ST.pdf (2 pages, 89439 bytes).
+ 667 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 1 local_par, 4 glue, 3 kern, 1 penalty, 3 glyph, 8 
+attribute, 86 glue_spec, 8 attribute_list, 2 write, 1 pdf_action nodes
+   avail lists: 1:4,2:874,3:342,4:337,5:351,6:121,7:8145,8:3,9:789,10:6,11:609
+ 52045 multiletter control sequences out of 65536+600000
+ 60 fonts using 5869647 bytes
+ 129i,13n,143p,1019b,1446s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/U
+sers/Matiu/AppData/Local/Programs/MiKTeX/fonts/opentype/public/fontawesome6/Font
+Awesome6Brands-Regular-400.otf>{C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fon
+ts/enc/dvips/lm/lm-ts1.enc}<c:/users/matiu/appdata/local/programs/miktex/fonts/o
+pentype/public/fontawesome6/fontawesome6free-regular-400.otf><C:/Users/Matiu/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/M
+atiu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/
+Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmb10.pfb><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+lm/lmr10.pfb><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
+/lmr8.pfb><C:/Users/Matiu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
+ri10.pfb>
+Output written on Matihus_Molina_CV_ES_ST.pdf (2 pages, 191953 bytes).
 
-PDF statistics: 122 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 131 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 1048576)
  88 words of extra memory for PDF output out of 10000 (max. 100000000)
 
